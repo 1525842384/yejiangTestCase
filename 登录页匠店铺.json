@@ -1,0 +1,1228 @@
+{
+	"meta": {
+		"suitName": "页匠店铺用例",
+		"caseName": "登录页匠店铺",
+		"version": "2.16.67",
+		"priority": "p0",
+		"startTime": 1665564263144,
+		"endTime": 1665564303584,
+		"author": "krisqi"
+	},
+	"extraDataOfPlugin": {},
+	"command": [
+		{
+			"command": "webOALogin",
+			"target": "https://pagedoo.woa.com/pagedoo/index.html",
+			"value": "",
+			"rtx": "",
+			"webOADynamicHeader": false,
+			"webOADynamicHeaderFilePath": "",
+			"timeStamp": 1665564267964
+		},
+		{
+			"command": "open",
+			"target": "https://pagedoo.woa.com/pagedoo/index.html",
+			"value": "",
+			"uniquely": true,
+			"timeStamp": 1665564268025
+		},
+		{
+			"command": "click",
+			"value": "",
+			"targetCandidates": [
+				"css=.select-btn",
+				"xpath=(//div[@id='root']/section/div/div[2]/div)[1]",
+				"xpath=(//div[contains(.,'请选择商户')])[5]",
+				"xpath=/html/body/div[2]/section/div/div[2]/div"
+			],
+			"location": {
+				"left": 64.1875,
+				"top": 312.171875,
+				"width": 256,
+				"height": 56,
+				"innerWidth": 1284
+			},
+			"timeStamp": 1665564275231
+		},
+		{
+			"command": "click",
+			"value": "",
+			"targetCandidates": [
+				"css=div:nth-child(1) > .tea-list > li",
+				"xpath=(//div[@id='tea-overlay-root']/div/div/div/ul/li)[1]",
+				"xpath=(//li[contains(.,'官网迭代2-资源业务')])[1]",
+				"xpath=/html/body/div[3]/div/div/div[1]/ul/li"
+			],
+			"location": {
+				"left": 64,
+				"top": 373,
+				"width": 256,
+				"height": 40,
+				"innerWidth": 1284
+			},
+			"timeStamp": 1665564276526
+		},
+		{
+			"command": "assertText",
+			"value": "官网迭代2-资源业务",
+			"targetCandidates": [
+				"css=.application-title > div:nth-child(1)",
+				"xpath=(//div[@id='root']/section/div/div[4]/div/div/div[2]/div)[1]",
+				"xpath=(//div[contains(.,'官网迭代2-资源业务')])[10]",
+				"xpath=/html/body/div[2]/section/div/div[4]/div/div[1]/div[2]/div[1]"
+			],
+			"location": {
+				"left": 152.1875,
+				"top": 464.171875,
+				"width": 148,
+				"height": 44,
+				"innerWidth": 1284
+			},
+			"timeStamp": 1665564281097
+		},
+		{
+			"command": "click",
+			"value": "",
+			"targetCandidates": [
+				"css=.application-title",
+				"xpath=(//div[@id='root']/section/div/div[4]/div/div/div[2])[1]",
+				"xpath=/html/body/div[2]/section/div/div[4]/div/div[1]/div[2]"
+			],
+			"location": {
+				"left": 137.1875,
+				"top": 464.171875,
+				"width": 163,
+				"height": 66,
+				"innerWidth": 1284
+			},
+			"timeStamp": 1665564283604
+		},
+		{
+			"command": "click",
+			"value": "",
+			"targetCandidates": [
+				"css=.tea-btn",
+				"xpath=(//div[@id='root']/section/div/button)[1]",
+				"xpath=(//button[contains(.,'进入管理台')])[1]",
+				"xpath=/html/body/div[2]/section/div/button"
+			],
+			"location": {
+				"left": 64.1875,
+				"top": 717.171875,
+				"width": 256,
+				"height": 52,
+				"innerWidth": 1284
+			},
+			"timeStamp": 1665564284468
+		},
+		{
+			"command": "assertText",
+			"value": "店铺",
+			"targetCandidates": [
+				"css=.tea-nav__service:nth-child(3) > a",
+				"xpath=(//a[contains(text(),'店铺')])[1]",
+				"xpath=(//div[@id='root']/section/header/nav/div[4]/div[3]/a)[1]",
+				"xpath=(//a[contains(.,'店铺')])[1]",
+				"xpath=/html/body/div[2]/section/header/nav/div[4]/div[3]/a"
+			],
+			"location": {
+				"left": 513.8125,
+				"top": -1,
+				"width": 28,
+				"height": 50,
+				"innerWidth": 1284
+			},
+			"timeStamp": 1665564288609
+		},
+		{
+			"command": "click",
+			"value": "",
+			"targetCandidates": [
+				"css=.tea-nav__service:nth-child(3) > a",
+				"xpath=(//a[contains(text(),'店铺')])[1]",
+				"xpath=(//div[@id='root']/section/header/nav/div[4]/div[3]/a)[1]",
+				"xpath=(//a[contains(.,'店铺')])[1]",
+				"xpath=/html/body/div[2]/section/header/nav/div[4]/div[3]/a"
+			],
+			"location": {
+				"left": 513.8125,
+				"top": -1,
+				"width": 28,
+				"height": 50,
+				"innerWidth": 1284
+			},
+			"timeStamp": 1665564291606
+		},
+		{
+			"command": "assertText",
+			"value": "我的店铺",
+			"targetCandidates": [
+				"css=li:nth-child(3) .tea-menu__text",
+				"xpath=(//div[@id='root']/section/section/nav/div/div[2]/ul/li[3]/a/div)[1]",
+				"xpath=(//div[contains(.,'我的店铺')])[4]",
+				"xpath=/html/body/div[2]/section/section/nav/div/div[2]/ul/li[3]/a/div"
+			],
+			"location": {
+				"left": 20,
+				"top": 156,
+				"width": 56,
+				"height": 26,
+				"innerWidth": 1284
+			},
+			"timeStamp": 1665564296743
+		},
+		{
+			"command": "click",
+			"value": "",
+			"targetCandidates": [
+				"css=li:nth-child(3) > .tea-menu__item",
+				"xpath=(//div[@id='root']/section/section/nav/div/div[2]/ul/li[3]/a)[1]",
+				"xpath=(//a[contains(.,'我的店铺')])[1]",
+				"xpath=/html/body/div[2]/section/section/nav/div/div[2]/ul/li[3]/a"
+			],
+			"location": {
+				"left": 0,
+				"top": 151,
+				"width": 149,
+				"height": 36,
+				"innerWidth": 1284
+			},
+			"timeStamp": 1665564298573
+		}
+	],
+	"replayConfig": {
+		"timeMock": false,
+		"disableAutoWait": false,
+		"browserArgs": {
+			"useBrowserArgs": false,
+			"browserArgs": [],
+			"enableWebSecurity": false,
+			"enableWebInfoBar": false,
+			"enableIsolation": false
+		},
+		"whitelist": {
+			"isWhitelist": false,
+			"whitelist": [
+				""
+			]
+		}
+	},
+	"pluginList": [
+		"@tencent/rua-plugin-actions",
+		"@tencent/rua-plugin-assert",
+		"@tencent/rua-plugin-weboalogin",
+		"@tencent/rua-plugin-webqqlogin",
+		"@tencent/rua-plugin-webviews"
+	],
+	"dialogList": {},
+	"env": {
+		"cookie": null,
+		"viewport": null,
+		"userAgent": null,
+		"extraArgs": [],
+		"host": null
+	},
+	"jsbridge": {
+		"meta": {
+			"creator": "Tuesday",
+			"createTime": 1665564268024,
+			"version": "1.2"
+		},
+		"tuesday_rsp_map": {}
+	},
+	"network": {
+		"win_ser_local": {
+			"meta": {
+				"creator": "Tuesday",
+				"createTime": 1665564268024,
+				"version": "1.2"
+			},
+			"jsonpList": [],
+			"GET_https:_aegis.qq.com_/collect/pv": {
+				"1128A15C413E40E435F7D16A9733C43D": [
+					{
+						"type": "response",
+						"key": {
+							"method": "GET",
+							"postData": null,
+							"isNavigationRequest": false,
+							"resourceType": "xhr",
+							"url": {
+								"protocol": "https:",
+								"username": "",
+								"password": "",
+								"hostname": "aegis.qq.com",
+								"port": "",
+								"pathname": "/collect/pv",
+								"query": {
+									"aid": "c1f2e6f1-be5a-4750-93f6-e5efcf69c352",
+									"env": "production",
+									"from": "https://pagedoo.woa.com/pagedoo/index.html",
+									"id": "sKHGAMsODaNjBjivWT",
+									"netType": "4",
+									"platform": "3",
+									"referer": "",
+									"sessionId": "session-1665564269528",
+									"sr": "2560 * 1440",
+									"uin": "",
+									"version": "1.36.1",
+									"vp": "1284 * 819"
+								}
+							},
+							"keyHash": "1128A15C413E40E435F7D16A9733C43D",
+							"extra": [
+								"xhr"
+							],
+							"base": "GET_https:_aegis.qq.com_/collect/pv"
+						},
+						"startTime": 1665564269902,
+						"finishTime": 1665564269923,
+						"duration": 21,
+						"response": {
+							"cacheConfig": {
+								"date": "Wed, 12 Oct 2022 08:44:29 GMT",
+								"server": "openresty",
+								"access-control-allow-origin": "*",
+								"access-control-allow-methods": "GET,POST,OPTIONS",
+								"access-control-allow-headers": "DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization",
+								"access-control-max-age": "86400",
+								"cross-origin-resource-policy": "cross-origin"
+							},
+							"status": 204,
+							"body": {
+								"encoding": "binary",
+								"content": ""
+							},
+							"headers": {
+								"date": "Wed, 12 Oct 2022 08:44:29 GMT",
+								"server": "openresty",
+								"access-control-allow-origin": "*",
+								"access-control-allow-methods": "GET,POST,OPTIONS",
+								"access-control-allow-headers": "DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization",
+								"access-control-max-age": "86400",
+								"cross-origin-resource-policy": "cross-origin"
+							}
+						}
+					}
+				]
+			},
+			"POST_https:_pagedoo.woa.com_/api/rbac.Menu/UserInfo": {
+				"5A31A8EFF5EBE8EFB91655EAF74FCB1E": [
+					{
+						"type": "response",
+						"key": {
+							"method": "POST",
+							"postData": "{}",
+							"isNavigationRequest": false,
+							"resourceType": "xhr",
+							"url": {
+								"protocol": "https:",
+								"username": "",
+								"password": "",
+								"hostname": "pagedoo.woa.com",
+								"port": "",
+								"pathname": "/api/rbac.Menu/UserInfo",
+								"query": {}
+							},
+							"keyHash": "5A31A8EFF5EBE8EFB91655EAF74FCB1E",
+							"extra": [
+								"xhr"
+							],
+							"base": "POST_https:_pagedoo.woa.com_/api/rbac.Menu/UserInfo"
+						},
+						"startTime": 1665564269901,
+						"finishTime": 1665564269954,
+						"duration": 53,
+						"response": {
+							"cacheConfig": {
+								"x-proxy-by": "SmartGate-IDC",
+								"x-forwarded-for": "30.43.234.17,11.176.16.222,10.99.17.204,10.99.17.35",
+								"Content-Type": "application/json",
+								"Content-Length": "176",
+								"Connection": "keep-alive",
+								"Trpc-Trans-Info": "{\"X-Request-Id\":\"MTA4ZjkzNTctNjJiNy00NmZhLWI5MmYtM2Q5NTVhYzU5Nzcy\",\"x_tencent_backend\":\"bWlkYXNfd2Vi\"}",
+								"X-Content-Type-Options": "nosniff",
+								"Date": "Wed, 12 Oct 2022 08:44:29 GMT",
+								"x-rio-seq": "l95dynpz-177624073"
+							},
+							"status": 200,
+							"body": {
+								"encoding": "binary",
+								"content": "{\"data\":{\"picHead\":\"https://dayu.woa.com/avatars/krisqi/profile.jpg\",\"uid\":\"krisqi\"},\"result_code\":\"0\",\"result_info\":\"ok\",\"x-request-id\":\"108f9357-62b7-46fa-b92f-3d955ac59772\"}"
+							},
+							"headers": {
+								"x-proxy-by": "SmartGate-IDC",
+								"x-forwarded-for": "30.43.234.17,11.176.16.222,10.99.17.204,10.99.17.35",
+								"Content-Type": "application/json",
+								"Content-Length": "176",
+								"Connection": "keep-alive",
+								"Trpc-Trans-Info": "{\"X-Request-Id\":\"MTA4ZjkzNTctNjJiNy00NmZhLWI5MmYtM2Q5NTVhYzU5Nzcy\",\"x_tencent_backend\":\"bWlkYXNfd2Vi\"}",
+								"X-Content-Type-Options": "nosniff",
+								"Date": "Wed, 12 Oct 2022 08:44:29 GMT",
+								"x-rio-seq": "l95dynpz-177624073"
+							}
+						}
+					}
+				]
+			},
+			"POST_https:_pagedoo.woa.com_/api/app.Merchant/MerchantList": {
+				"ADD0DED20B7901872F4AD9B24F4A1301": [
+					{
+						"type": "response",
+						"key": {
+							"method": "POST",
+							"postData": "{}",
+							"isNavigationRequest": false,
+							"resourceType": "xhr",
+							"url": {
+								"protocol": "https:",
+								"username": "",
+								"password": "",
+								"hostname": "pagedoo.woa.com",
+								"port": "",
+								"pathname": "/api/app.Merchant/MerchantList",
+								"query": {}
+							},
+							"keyHash": "ADD0DED20B7901872F4AD9B24F4A1301",
+							"extra": [
+								"xhr"
+							],
+							"base": "POST_https:_pagedoo.woa.com_/api/app.Merchant/MerchantList"
+						},
+						"startTime": 1665564269907,
+						"finishTime": 1665564269993,
+						"duration": 86,
+						"response": {
+							"cacheConfig": {
+								"x-proxy-by": "SmartGate-IDC",
+								"x-forwarded-for": "30.43.234.17,11.176.16.222,10.99.17.204,10.99.17.35",
+								"Content-Type": "application/json",
+								"Content-Length": "326",
+								"Connection": "keep-alive",
+								"Trpc-Trans-Info": "{\"X-Request-Id\":\"ZTZlNGExZmQtZWRlNy00YjVmLWIwNGMtN2RkMGY2MWE2ZjFi\",\"x_tencent_backend\":\"bWlkYXNfd2Vi\"}",
+								"X-Content-Type-Options": "nosniff",
+								"Date": "Wed, 12 Oct 2022 08:44:30 GMT",
+								"x-rio-seq": "l95dynr3-143506257"
+							},
+							"status": 200,
+							"body": {
+								"encoding": "binary",
+								"content": "{\"data\":[{\"extend\":{\"midasAttr\":{\"offerId\":\"800000008\",\"uid\":\"jeckyzhang\"}},\"merchantId\":\"800000008\",\"merchantName\":\"å®ç½è¿­ä»£2-èµæºä¸å¡\",\"picUrl\":\"https://midas.gtimg.cn/cpay_config/5f4e742d28a843bdeb8edc02fc73370d.jpg\"}],\"result_code\":\"0\",\"result_info\":\"Success\",\"x-request-id\":\"e6e4a1fd-ede7-4b5f-b04c-7dd0f61a6f1b\"}"
+							},
+							"headers": {
+								"x-proxy-by": "SmartGate-IDC",
+								"x-forwarded-for": "30.43.234.17,11.176.16.222,10.99.17.204,10.99.17.35",
+								"Content-Type": "application/json",
+								"Content-Length": "326",
+								"Connection": "keep-alive",
+								"Trpc-Trans-Info": "{\"X-Request-Id\":\"ZTZlNGExZmQtZWRlNy00YjVmLWIwNGMtN2RkMGY2MWE2ZjFi\",\"x_tencent_backend\":\"bWlkYXNfd2Vi\"}",
+								"X-Content-Type-Options": "nosniff",
+								"Date": "Wed, 12 Oct 2022 08:44:30 GMT",
+								"x-rio-seq": "l95dynr3-143506257"
+							}
+						}
+					}
+				]
+			},
+			"GET_https:_aegis.qq.com_/collect/whitelist": {
+				"AE7D2578F324DCE18680F313AF7DBCAC": [
+					{
+						"type": "response",
+						"key": {
+							"method": "GET",
+							"postData": null,
+							"isNavigationRequest": false,
+							"resourceType": "xhr",
+							"url": {
+								"protocol": "https:",
+								"username": "",
+								"password": "",
+								"hostname": "aegis.qq.com",
+								"port": "",
+								"pathname": "/collect/whitelist",
+								"query": {
+									"aid": "c1f2e6f1-be5a-4750-93f6-e5efcf69c352",
+									"env": "production",
+									"from": "https://pagedoo.woa.com/pagedoo/index.html",
+									"id": "sKHGAMsODaNjBjivWT",
+									"netType": "4",
+									"platform": "3",
+									"referer": "",
+									"sessionId": "session-1665564269528",
+									"sr": "2560 * 1440",
+									"uin": "",
+									"version": "1.36.1",
+									"vp": "1284 * 819"
+								}
+							},
+							"keyHash": "AE7D2578F324DCE18680F313AF7DBCAC",
+							"extra": [
+								"xhr"
+							],
+							"base": "GET_https:_aegis.qq.com_/collect/whitelist"
+						},
+						"startTime": 1665564270034,
+						"finishTime": 1665564270051,
+						"duration": 17,
+						"response": {
+							"cacheConfig": {
+								"date": "Wed, 12 Oct 2022 08:44:30 GMT",
+								"content-type": "application/json; charset=utf-8",
+								"content-length": "58",
+								"server": "openresty",
+								"x-powered-by": "Express",
+								"access-control-allow-origin": "*",
+								"etag": "W/\"3a-Mq+Z0YrSSADKAkwAZ0tpR8ztW14\""
+							},
+							"status": 200,
+							"body": {
+								"encoding": "binary",
+								"content": "{\"retcode\":0,\"result\":{\"is_in_white_list\":false,\"rate\":1}}"
+							},
+							"headers": {
+								"date": "Wed, 12 Oct 2022 08:44:30 GMT",
+								"content-type": "application/json; charset=utf-8",
+								"content-length": "58",
+								"server": "openresty",
+								"x-powered-by": "Express",
+								"access-control-allow-origin": "*",
+								"etag": "W/\"3a-Mq+Z0YrSSADKAkwAZ0tpR8ztW14\""
+							}
+						}
+					}
+				]
+			},
+			"POST_https:_pagedoo.woa.com_/api/app.Application/ApplicationList": {
+				"E78DEE9CE0575F640D9845373F0E5693": [
+					{
+						"type": "response",
+						"key": {
+							"method": "POST",
+							"postData": "{\"merchantId\":\"800000008\"}",
+							"isNavigationRequest": false,
+							"resourceType": "xhr",
+							"url": {
+								"protocol": "https:",
+								"username": "",
+								"password": "",
+								"hostname": "pagedoo.woa.com",
+								"port": "",
+								"pathname": "/api/app.Application/ApplicationList",
+								"query": {}
+							},
+							"keyHash": "E78DEE9CE0575F640D9845373F0E5693",
+							"extra": [
+								"xhr"
+							],
+							"base": "POST_https:_pagedoo.woa.com_/api/app.Application/ApplicationList"
+						},
+						"startTime": 1665564269997,
+						"finishTime": 1665564270068,
+						"duration": 71,
+						"response": {
+							"cacheConfig": {
+								"x-proxy-by": "SmartGate-IDC",
+								"x-forwarded-for": "30.43.234.17,11.176.16.36,10.99.17.204,10.99.17.35",
+								"Content-Type": "application/json",
+								"Content-Length": "285",
+								"Connection": "keep-alive",
+								"Trpc-Trans-Info": "{\"X-Request-Id\":\"YjMyOGVkODYtNjM0My00OTg3LWJkMzMtNTliZTI2YTJhYTRm\",\"x_tencent_backend\":\"bWlkYXNfd2Vi\"}",
+								"X-Content-Type-Options": "nosniff",
+								"Date": "Wed, 12 Oct 2022 08:44:30 GMT",
+								"x-rio-seq": "l95dynt7-141600540"
+							},
+							"status": 200,
+							"body": {
+								"encoding": "binary",
+								"content": "{\"data\":[{\"appId\":\"202208301145014483768320\",\"appName\":\"å®ç½è¿­ä»£2-èµæºä¸å¡\",\"extend\":{\"midasAttr\":{\"authOfferId\":\"800000008\",\"offerId\":\"800000008\",\"uid\":\"yawenruan\"}},\"picUrl\":\"\"}],\"result_code\":\"0\",\"result_info\":\"Success\",\"x-request-id\":\"b328ed86-6343-4987-bd33-59be26a2aa4f\"}"
+							},
+							"headers": {
+								"x-proxy-by": "SmartGate-IDC",
+								"x-forwarded-for": "30.43.234.17,11.176.16.36,10.99.17.204,10.99.17.35",
+								"Content-Type": "application/json",
+								"Content-Length": "285",
+								"Connection": "keep-alive",
+								"Trpc-Trans-Info": "{\"X-Request-Id\":\"YjMyOGVkODYtNjM0My00OTg3LWJkMzMtNTliZTI2YTJhYTRm\",\"x_tencent_backend\":\"bWlkYXNfd2Vi\"}",
+								"X-Content-Type-Options": "nosniff",
+								"Date": "Wed, 12 Oct 2022 08:44:30 GMT",
+								"x-rio-seq": "l95dynt7-141600540"
+							}
+						}
+					}
+				]
+			},
+			"POST_https:_aegis.qq.com_/speed": {
+				"B5F1CD1AC75AB1B197EDA7A0D221CCE3": [
+					{
+						"type": "response",
+						"key": {
+							"method": "POST",
+							"postData": "------WebKitFormBoundaryLpZNJRvq82Ku5WUn\r\nContent-Disposition: form-data; name=\"payload\"\r\n\r\n{\"duration\":{\"fetch\":[{\"url\":\"//pagedoo.woa.com/api/rbac.Menu/UserInfo\",\"isHttps\":true,\"status\":200,\"method\":\"POST\",\"type\":\"fetch\",\"duration\":190,\"ret\":\"unknown\",\"isErr\":0},{\"url\":\"//pagedoo.woa.com/api/app.Merchant/MerchantList\",\"isHttps\":true,\"status\":200,\"method\":\"POST\",\"type\":\"fetch\",\"duration\":217,\"ret\":\"unknown\",\"isErr\":0},{\"url\":\"//pagedoo.woa.com/api/app.Application/ApplicationList\",\"isHttps\":true,\"status\":200,\"method\":\"POST\",\"type\":\"fetch\",\"duration\":81,\"ret\":\"unknown\",\"isErr\":0}],\"static\":[{\"url\":\"https://pagedoo.woa.com/pagedoo/assets/index.92518ec4.js\",\"method\":\"get\",\"duration\":1032.1,\"status\":200,\"type\":\"static\",\"isHttps\":true,\"urlQuery\":\"\",\"domainLookup\":0,\"connectTime\":0},{\"url\":\"https://pagedoo.woa.com/pagedoo/assets/index.1ac86004.css\",\"method\":\"get\",\"duration\":307.6,\"status\":200,\"type\":\"static\",\"isHttps\":true,\"urlQuery\":\"\",\"domainLookup\":0,\"connectTime\":23.300000000279397},{\"url\":\"https://pagedoo.woa.com/pagedoo/assets/logo.ae56d316.png\",\"method\":\"get\",\"duration\":87.1,\"status\":200,\"type\":\"static\",\"isHttps\":true,\"urlQuery\":\"\",\"domainLookup\":0,\"connectTime\":0},{\"url\":\"https://dayu.woa.com/avatars/krisqi/profile.jpg\",\"method\":\"get\",\"duration\":119.9,\"status\":200,\"type\":\"static\",\"isHttps\":true,\"urlQuery\":\"\",\"domainLookup\":0,\"connectTime\":0}]},\"id\":\"sKHGAMsODaNjBjivWT\",\"uin\":\"\",\"version\":\"1.36.1\",\"aid\":\"c1f2e6f1-be5a-4750-93f6-e5efcf69c352\",\"env\":\"production\",\"platform\":3,\"netType\":4,\"vp\":\"1284 * 819\",\"sr\":\"2560 * 1440\",\"sessionId\":\"session-1665564269528\",\"from\":\"https%3A%2F%2Fpagedoo.woa.com%2Fpagedoo%2Findex.html\",\"referer\":\"\"}\r\n------WebKitFormBoundaryLpZNJRvq82Ku5WUn--\r\n",
+							"isNavigationRequest": false,
+							"resourceType": "xhr",
+							"url": {
+								"protocol": "https:",
+								"username": "",
+								"password": "",
+								"hostname": "aegis.qq.com",
+								"port": "",
+								"pathname": "/speed",
+								"query": {
+									"aid": "c1f2e6f1-be5a-4750-93f6-e5efcf69c352",
+									"env": "production",
+									"from": "https://pagedoo.woa.com/pagedoo/index.html",
+									"id": "sKHGAMsODaNjBjivWT",
+									"netType": "4",
+									"platform": "3",
+									"referer": "",
+									"sessionId": "session-1665564269528",
+									"sr": "2560 * 1440",
+									"uin": "",
+									"version": "1.36.1",
+									"vp": "1284 * 819"
+								}
+							},
+							"keyHash": "B5F1CD1AC75AB1B197EDA7A0D221CCE3",
+							"extra": [
+								"xhr"
+							],
+							"base": "POST_https:_aegis.qq.com_/speed"
+						},
+						"startTime": 1665564271100,
+						"finishTime": 1665564271117,
+						"duration": 17,
+						"response": {
+							"cacheConfig": {
+								"date": "Wed, 12 Oct 2022 08:44:31 GMT",
+								"server": "openresty",
+								"access-control-allow-origin": "*"
+							},
+							"status": 204,
+							"body": {
+								"encoding": "binary",
+								"content": ""
+							},
+							"headers": {
+								"date": "Wed, 12 Oct 2022 08:44:31 GMT",
+								"server": "openresty",
+								"access-control-allow-origin": "*"
+							}
+						}
+					}
+				],
+				"879FC254931D811FF1E9C4BDA9395888": [
+					{
+						"type": "response",
+						"key": {
+							"method": "POST",
+							"postData": "------WebKitFormBoundaryCsG8PxGqTYemvtFS\r\nContent-Disposition: form-data; name=\"payload\"\r\n\r\n{\"duration\":{\"fetch\":[],\"static\":[{\"url\":\"https://midas.gtimg.cn/cpay_config/5f4e742d28a843bdeb8edc02fc73370d.jpg\",\"method\":\"get\",\"duration\":76.1,\"status\":200,\"type\":\"static\",\"isHttps\":true,\"urlQuery\":\"\",\"domainLookup\":0,\"connectTime\":0},{\"url\":\"https://pagedoo.woa.com/pagedoo/assets/logo.ae56d316.png\",\"method\":\"get\",\"duration\":88.9,\"status\":200,\"type\":\"static\",\"isHttps\":true,\"urlQuery\":\"\",\"domainLookup\":0,\"connectTime\":0}]},\"id\":\"sKHGAMsODaNjBjivWT\",\"uin\":\"\",\"version\":\"1.36.1\",\"aid\":\"c1f2e6f1-be5a-4750-93f6-e5efcf69c352\",\"env\":\"production\",\"platform\":3,\"netType\":4,\"vp\":\"1284 * 819\",\"sr\":\"2560 * 1440\",\"sessionId\":\"session-1665564269528\",\"from\":\"https%3A%2F%2Fpagedoo.woa.com%2Fpagedoo%2Findex.html\",\"referer\":\"\"}\r\n------WebKitFormBoundaryCsG8PxGqTYemvtFS--\r\n",
+							"isNavigationRequest": false,
+							"resourceType": "xhr",
+							"url": {
+								"protocol": "https:",
+								"username": "",
+								"password": "",
+								"hostname": "aegis.qq.com",
+								"port": "",
+								"pathname": "/speed",
+								"query": {
+									"aid": "c1f2e6f1-be5a-4750-93f6-e5efcf69c352",
+									"env": "production",
+									"from": "https://pagedoo.woa.com/pagedoo/index.html",
+									"id": "sKHGAMsODaNjBjivWT",
+									"netType": "4",
+									"platform": "3",
+									"referer": "",
+									"sessionId": "session-1665564269528",
+									"sr": "2560 * 1440",
+									"uin": "",
+									"version": "1.36.1",
+									"vp": "1284 * 819"
+								}
+							},
+							"keyHash": "879FC254931D811FF1E9C4BDA9395888",
+							"extra": [
+								"xhr"
+							],
+							"base": "POST_https:_aegis.qq.com_/speed"
+						},
+						"startTime": 1665564277656,
+						"finishTime": 1665564277671,
+						"duration": 15,
+						"response": {
+							"cacheConfig": {
+								"date": "Wed, 12 Oct 2022 08:44:37 GMT",
+								"server": "openresty",
+								"access-control-allow-origin": "*"
+							},
+							"status": 204,
+							"body": {
+								"encoding": "binary",
+								"content": ""
+							},
+							"headers": {
+								"date": "Wed, 12 Oct 2022 08:44:37 GMT",
+								"server": "openresty",
+								"access-control-allow-origin": "*"
+							}
+						}
+					}
+				],
+				"3A0FC4D99776BD345921E49E4A76555E": [
+					{
+						"type": "response",
+						"key": {
+							"method": "POST",
+							"postData": "------WebKitFormBoundary8azpWcOmj8mI7fI5\r\nContent-Disposition: form-data; name=\"payload\"\r\n\r\n{\"duration\":{\"fetch\":[{\"url\":\"//pagedoo.woa.com/api/rbac.Menu/MenuList\",\"isHttps\":true,\"status\":200,\"method\":\"POST\",\"type\":\"fetch\",\"duration\":121,\"ret\":\"unknown\",\"isErr\":0}],\"static\":[{\"url\":\"https://pagedoo.woa.com/pagedoo/assets/Admin.6133b65b.css\",\"method\":\"get\",\"duration\":178.6,\"status\":200,\"type\":\"static\",\"isHttps\":true,\"urlQuery\":\"\",\"domainLookup\":0,\"connectTime\":0},{\"url\":\"https://dayu.woa.com/avatars/krisqi/profile.jpg\",\"method\":\"get\",\"duration\":34.5,\"status\":200,\"type\":\"static\",\"isHttps\":true,\"urlQuery\":\"\",\"domainLookup\":0,\"connectTime\":0},{\"url\":\"https://pagedoo.woa.com/pagedoo/assets/logo.ae56d316.png\",\"method\":\"get\",\"duration\":73.1,\"status\":200,\"type\":\"static\",\"isHttps\":true,\"urlQuery\":\"\",\"domainLookup\":0,\"connectTime\":0}]},\"id\":\"sKHGAMsODaNjBjivWT\",\"uin\":\"\",\"version\":\"1.36.1\",\"aid\":\"c1f2e6f1-be5a-4750-93f6-e5efcf69c352\",\"env\":\"production\",\"platform\":3,\"netType\":4,\"vp\":\"1284 * 819\",\"sr\":\"2560 * 1440\",\"sessionId\":\"session-1665564269528\",\"from\":\"https%3A%2F%2Fpagedoo.woa.com%2Fpagedoo%2Findex.html\",\"referer\":\"\"}\r\n------WebKitFormBoundary8azpWcOmj8mI7fI5--\r\n",
+							"isNavigationRequest": false,
+							"resourceType": "xhr",
+							"url": {
+								"protocol": "https:",
+								"username": "",
+								"password": "",
+								"hostname": "aegis.qq.com",
+								"port": "",
+								"pathname": "/speed",
+								"query": {
+									"aid": "c1f2e6f1-be5a-4750-93f6-e5efcf69c352",
+									"env": "production",
+									"from": "https://pagedoo.woa.com/pagedoo/index.html",
+									"id": "sKHGAMsODaNjBjivWT",
+									"netType": "4",
+									"platform": "3",
+									"referer": "",
+									"sessionId": "session-1665564269528",
+									"sr": "2560 * 1440",
+									"uin": "",
+									"version": "1.36.1",
+									"vp": "1284 * 819"
+								}
+							},
+							"keyHash": "3A0FC4D99776BD345921E49E4A76555E",
+							"extra": [
+								"xhr"
+							],
+							"base": "POST_https:_aegis.qq.com_/speed"
+						},
+						"startTime": 1665564285787,
+						"finishTime": 1665564285805,
+						"duration": 18,
+						"response": {
+							"cacheConfig": {
+								"date": "Wed, 12 Oct 2022 08:44:45 GMT",
+								"server": "openresty",
+								"access-control-allow-origin": "*"
+							},
+							"status": 204,
+							"body": {
+								"encoding": "binary",
+								"content": ""
+							},
+							"headers": {
+								"date": "Wed, 12 Oct 2022 08:44:45 GMT",
+								"server": "openresty",
+								"access-control-allow-origin": "*"
+							}
+						}
+					}
+				],
+				"10E0526441EE84FA1631E4269979CE65": [
+					{
+						"type": "response",
+						"key": {
+							"method": "POST",
+							"postData": "------WebKitFormBoundaryAogltk7ilNk4Oq2v\r\nContent-Disposition: form-data; name=\"payload\"\r\n\r\n{\"duration\":{\"fetch\":[{\"url\":\"//pagedoo.woa.com/api/page_template.PageTemplateSvr/QueryTemplateList\",\"isHttps\":true,\"status\":200,\"method\":\"POST\",\"type\":\"fetch\",\"duration\":353,\"ret\":\"unknown\",\"isErr\":0},{\"url\":\"//pagedoo.woa.com/api/goods.Manage/QuerySourceProductList\",\"isHttps\":true,\"status\":200,\"method\":\"POST\",\"type\":\"fetch\",\"duration\":663,\"ret\":\"unknown\",\"isErr\":0}],\"static\":[{\"url\":\"https://pagedoo.pay.qq.com/material/202208301145014483768320/8ddc4c7a6caed67c05ad0d7dd7301452.png\",\"method\":\"get\",\"duration\":183.7,\"status\":200,\"type\":\"static\",\"isHttps\":true,\"urlQuery\":\"imageMogr2/thumbnail/360x600\",\"domainLookup\":106.8000000002794,\"connectTime\":26.600000000093132}]},\"id\":\"sKHGAMsODaNjBjivWT\",\"uin\":\"\",\"version\":\"1.36.1\",\"aid\":\"c1f2e6f1-be5a-4750-93f6-e5efcf69c352\",\"env\":\"production\",\"platform\":3,\"netType\":4,\"vp\":\"1284 * 819\",\"sr\":\"2560 * 1440\",\"sessionId\":\"session-1665564269528\",\"from\":\"https%3A%2F%2Fpagedoo.woa.com%2Fpagedoo%2Findex.html\",\"referer\":\"\"}\r\n------WebKitFormBoundaryAogltk7ilNk4Oq2v--\r\n",
+							"isNavigationRequest": false,
+							"resourceType": "xhr",
+							"url": {
+								"protocol": "https:",
+								"username": "",
+								"password": "",
+								"hostname": "aegis.qq.com",
+								"port": "",
+								"pathname": "/speed",
+								"query": {
+									"aid": "c1f2e6f1-be5a-4750-93f6-e5efcf69c352",
+									"env": "production",
+									"from": "https://pagedoo.woa.com/pagedoo/index.html",
+									"id": "sKHGAMsODaNjBjivWT",
+									"netType": "4",
+									"platform": "3",
+									"referer": "",
+									"sessionId": "session-1665564269528",
+									"sr": "2560 * 1440",
+									"uin": "",
+									"version": "1.36.1",
+									"vp": "1284 * 819"
+								}
+							},
+							"keyHash": "10E0526441EE84FA1631E4269979CE65",
+							"extra": [
+								"xhr"
+							],
+							"base": "POST_https:_aegis.qq.com_/speed"
+						},
+						"startTime": 1665564293292,
+						"finishTime": 1665564293351,
+						"duration": 59,
+						"response": {
+							"cacheConfig": {
+								"date": "Wed, 12 Oct 2022 08:44:53 GMT",
+								"server": "openresty",
+								"access-control-allow-origin": "*"
+							},
+							"status": 204,
+							"body": {
+								"encoding": "binary",
+								"content": ""
+							},
+							"headers": {
+								"date": "Wed, 12 Oct 2022 08:44:53 GMT",
+								"server": "openresty",
+								"access-control-allow-origin": "*"
+							}
+						}
+					}
+				],
+				"4A64107871E9ECE17840A03A02BDF717": [
+					{
+						"type": "response",
+						"key": {
+							"method": "POST",
+							"postData": "------WebKitFormBoundaryPgT1AVoFQ8yBj2HG\r\nContent-Disposition: form-data; name=\"payload\"\r\n\r\n{\"duration\":{\"fetch\":[{\"url\":\"//pagedoo.woa.com/api/shop_manage.ShopSvr/ShopListQuery\",\"isHttps\":true,\"status\":200,\"method\":\"POST\",\"type\":\"fetch\",\"duration\":225,\"ret\":\"unknown\",\"isErr\":0},{\"url\":\"//pagedoo.woa.com/api/shop_manage.ShopSvr/ShopListQuery\",\"isHttps\":true,\"status\":200,\"method\":\"POST\",\"type\":\"fetch\",\"duration\":283,\"ret\":\"unknown\",\"isErr\":0}],\"static\":[{\"url\":\"https://pagedoo.woa.com/material/202208301145014483768320/d050c4f043220a17d9746af42bc05c02.png\",\"method\":\"get\",\"duration\":106.6,\"status\":200,\"type\":\"static\",\"isHttps\":true,\"urlQuery\":\"\",\"domainLookup\":0,\"connectTime\":0}]},\"id\":\"sKHGAMsODaNjBjivWT\",\"uin\":\"\",\"version\":\"1.36.1\",\"aid\":\"c1f2e6f1-be5a-4750-93f6-e5efcf69c352\",\"env\":\"production\",\"platform\":3,\"netType\":4,\"vp\":\"1284 * 819\",\"sr\":\"2560 * 1440\",\"sessionId\":\"session-1665564269528\",\"from\":\"https%3A%2F%2Fpagedoo.woa.com%2Fpagedoo%2Findex.html\",\"referer\":\"\"}\r\n------WebKitFormBoundaryPgT1AVoFQ8yBj2HG--\r\n",
+							"isNavigationRequest": false,
+							"resourceType": "xhr",
+							"url": {
+								"protocol": "https:",
+								"username": "",
+								"password": "",
+								"hostname": "aegis.qq.com",
+								"port": "",
+								"pathname": "/speed",
+								"query": {
+									"aid": "c1f2e6f1-be5a-4750-93f6-e5efcf69c352",
+									"env": "production",
+									"from": "https://pagedoo.woa.com/pagedoo/index.html",
+									"id": "sKHGAMsODaNjBjivWT",
+									"netType": "4",
+									"platform": "3",
+									"referer": "",
+									"sessionId": "session-1665564269528",
+									"sr": "2560 * 1440",
+									"uin": "",
+									"version": "1.36.1",
+									"vp": "1284 * 819"
+								}
+							},
+							"keyHash": "4A64107871E9ECE17840A03A02BDF717",
+							"extra": [
+								"xhr"
+							],
+							"base": "POST_https:_aegis.qq.com_/speed"
+						},
+						"startTime": 1665564299998,
+						"finishTime": 1665564300013,
+						"duration": 15,
+						"response": {
+							"cacheConfig": {
+								"date": "Wed, 12 Oct 2022 08:45:00 GMT",
+								"server": "openresty",
+								"access-control-allow-origin": "*"
+							},
+							"status": 204,
+							"body": {
+								"encoding": "binary",
+								"content": ""
+							},
+							"headers": {
+								"date": "Wed, 12 Oct 2022 08:45:00 GMT",
+								"server": "openresty",
+								"access-control-allow-origin": "*"
+							}
+						}
+					}
+				]
+			},
+			"GET_https:_aegis.qq.com_/speed/performance": {
+				"5F0F00756E4C13589AF235201E894BA2": [
+					{
+						"type": "response",
+						"key": {
+							"method": "GET",
+							"postData": null,
+							"isNavigationRequest": false,
+							"resourceType": "xhr",
+							"url": {
+								"protocol": "https:",
+								"username": "",
+								"password": "",
+								"hostname": "aegis.qq.com",
+								"port": "",
+								"pathname": "/speed/performance",
+								"query": {
+									"aid": "c1f2e6f1-be5a-4750-93f6-e5efcf69c352",
+									"contentDownload": "0",
+									"dnsLookup": "0",
+									"domParse": "22",
+									"env": "production",
+									"firstScreenTiming": "1962",
+									"from": "https://pagedoo.woa.com/pagedoo/index.html",
+									"id": "sKHGAMsODaNjBjivWT",
+									"netType": "4",
+									"platform": "3",
+									"referer": "",
+									"resourceDownload": "1627",
+									"sessionId": "session-1665564269528",
+									"sr": "2560 * 1440",
+									"ssl": "0",
+									"tcp": "0",
+									"ttfb": "85",
+									"uin": "",
+									"version": "1.36.1",
+									"vp": "1284 * 819"
+								}
+							},
+							"keyHash": "5F0F00756E4C13589AF235201E894BA2",
+							"extra": [
+								"xhr"
+							],
+							"base": "GET_https:_aegis.qq.com_/speed/performance"
+						},
+						"startTime": 1665564272537,
+						"finishTime": 1665564272553,
+						"duration": 16,
+						"response": {
+							"cacheConfig": {
+								"date": "Wed, 12 Oct 2022 08:44:32 GMT",
+								"server": "openresty",
+								"access-control-allow-origin": "*"
+							},
+							"status": 204,
+							"body": {
+								"encoding": "binary",
+								"content": ""
+							},
+							"headers": {
+								"date": "Wed, 12 Oct 2022 08:44:32 GMT",
+								"server": "openresty",
+								"access-control-allow-origin": "*"
+							}
+						}
+					}
+				]
+			},
+			"POST_https:_pagedoo.woa.com_/api/rbac.Menu/MenuList": {
+				"790690A9B4E4FA2867EFEB7BDDB72AC7": [
+					{
+						"type": "response",
+						"key": {
+							"method": "POST",
+							"postData": "{}",
+							"isNavigationRequest": false,
+							"resourceType": "xhr",
+							"url": {
+								"protocol": "https:",
+								"username": "",
+								"password": "",
+								"hostname": "pagedoo.woa.com",
+								"port": "",
+								"pathname": "/api/rbac.Menu/MenuList",
+								"query": {
+									"appId": "202208301145014483768320"
+								}
+							},
+							"keyHash": "790690A9B4E4FA2867EFEB7BDDB72AC7",
+							"extra": [
+								"xhr"
+							],
+							"base": "POST_https:_pagedoo.woa.com_/api/rbac.Menu/MenuList"
+						},
+						"startTime": 1665564284663,
+						"finishTime": 1665564284778,
+						"duration": 115,
+						"response": {
+							"cacheConfig": {
+								"x-proxy-by": "SmartGate-IDC",
+								"x-forwarded-for": "30.43.234.17,11.176.16.36,10.99.17.204,10.99.17.35",
+								"Content-Type": "application/json",
+								"Transfer-Encoding": "chunked",
+								"Connection": "keep-alive",
+								"Trpc-Trans-Info": "{\"X-Request-Id\":\"NmRlNDc4MGQtNmVlNy00MTZjLThhN2ItZTk5M2VkNDlkMmRh\",\"x_tencent_backend\":\"bWlkYXNfd2Vi\"}",
+								"X-Content-Type-Options": "nosniff",
+								"Date": "Wed, 12 Oct 2022 08:44:44 GMT",
+								"content-encoding": "gzip",
+								"x-rio-seq": "l95dyz5i-183038202"
+							},
+							"status": 200,
+							"body": {
+								"encoding": "binary",
+								"content": "{\"data\":[{\"apiList\":[],\"childList\":[],\"createTime\":\"1661117142000\",\"createUser\":\"yawenruan\",\"id\":\"5\",\"parentId\":\"-1\",\"priority\":1,\"resourceCode\":\"home\",\"resourceName\":\"é¦é¡µ\",\"resourceType\":\"1\",\"show\":\"1\",\"system\":\"midas\",\"updateTime\":\"1662341685000\",\"updateUser\":\"yawenruan\",\"url\":\"/home\"},{\"apiList\":[\" \"],\"childList\":[{\"apiList\":[\" \"],\"childList\":[{\"apiList\":[\" \"],\"childList\":[],\"createTime\":\"1661726012000\",\"createUser\":\"admin\",\"id\":\"18\",\"parentId\":\"17\",\"priority\":1,\"resourceCode\":\"template-repository\",\"resourceName\":\"æ´»å¨åå»º\",\"resourceType\":\"1\",\"show\":\"1\",\"system\":\"midas\",\"updateTime\":\"1662342307000\",\"updateUser\":\"admin\",\"url\":\"/activity/establish/template-repository\"},{\"apiList\":[\" \"],\"childList\":[],\"createTime\":\"1661726073000\",\"createUser\":\"admin\",\"id\":\"19\",\"parentId\":\"17\",\"priority\":2,\"resourceCode\":\"management\",\"resourceName\":\"æ´»å¨ç®¡ç\",\"resourceType\":\"1\",\"show\":\"1\",\"system\":\"midas\",\"updateTime\":\"1662342307000\",\"updateUser\":\"admin\",\"url\":\"/activity/management\"}],\"createTime\":\"1661725922000\",\"createUser\":\"admin\",\"id\":\"17\",\"parentId\":\"20\",\"priority\":0,\"resourceCode\":\"activity\",\"resourceName\":\"æ´»å¨\",\"resourceType\":\"1\",\"show\":\"1\",\"system\":\"midas\",\"updateTime\":\"1661772780000\",\"updateUser\":\"admin\",\"url\":\"/activity\"}],\"createTime\":\"1661772744000\",\"createUser\":\"admin\",\"id\":\"20\",\"parentId\":\"-1\",\"priority\":2,\"resourceCode\":\"activity-first\",\"resourceName\":\"æ´»å¨\",\"resourceType\":\"1\",\"show\":\"1\",\"system\":\"midas\",\"updateTime\":\"1663061670000\",\"updateUser\":\"admin\",\"url\":\"/activity\"},{\"apiList\":[],\"childList\":[{\"apiList\":[],\"childList\":[{\"apiList\":[],\"childList\":[],\"createTime\":\"1661117341000\",\"createUser\":\"yawenruan\",\"id\":\"8\",\"parentId\":\"7\",\"priority\":1,\"resourceCode\":\"shop-template\",\"resourceName\":\"åºéºæ¨¡æ¿\",\"resourceType\":\"1\",\"show\":\"1\",\"system\":\"midas\",\"updateTime\":\"1661682072000\",\"updateUser\":\"yawenruan\",\"url\":\"/shop-decorater/shop-template\"},{\"apiList\":[],\"childList\":[],\"createTime\":\"1661117367000\",\"createUser\":\"yawenruan\",\"id\":\"9\",\"parentId\":\"7\",\"priority\":2,\"resourceCode\":\"my-shop\",\"resourceName\":\"æçåºéº\",\"resourceType\":\"1\",\"show\":\"1\",\"system\":\"midas\",\"updateTime\":\"1662341795000\",\"updateUser\":\"yawenruan\",\"url\":\"/shop-decorater/my-shop\"}],\"createTime\":\"1661117288000\",\"createUser\":\"yawenruan\",\"id\":\"7\",\"parentId\":\"6\",\"priority\":0,\"resourceCode\":\"shop-decorater\",\"resourceName\":\"åºéºè£ä¿®\",\"resourceType\":\"1\",\"show\":\"1\",\"system\":\"midas\",\"updateTime\":\"1661117288000\",\"updateUser\":\"yawenruan\",\"url\":\"/shop-decorater\"}],\"createTime\":\"1661117197000\",\"createUser\":\"yawenruan\",\"id\":\"6\",\"parentId\":\"-1\",\"priority\":3,\"resourceCode\":\"shop-decorater-group\",\"resourceName\":\"åºéº\",\"resourceType\":\"1\",\"show\":\"1\",\"system\":\"midas\",\"updateTime\":\"1662489073000\",\"updateUser\":\"yawenruan\",\"url\":\"/shop-decorater\"},{\"apiList\":[],\"childList\":[{\"apiList\":[],\"childList\":[{\"apiList\":[],\"childList\":[],\"createTime\":\"1662405786000\",\"createUser\":\"yawenruan\",\"id\":\"37\",\"parentId\":\"36\",\"priority\":1,\"resourceCode\":\"content-create\",\"resourceName\":\"åå®¹åå»º\",\"resourceType\":\"1\",\"show\":\"1\",\"system\":\"midas\",\"updateTime\":\"1662405853000\",\"updateUser\":\"yawenruan\",\"url\":\"/content-admin/content-create\"},{\"apiList\":[],\"childList\":[],\"createTime\":\"1662405813000\",\"createUser\":\"yawenruan\",\"id\":\"38\",\"parentId\":\"36\",\"priority\":2,\"resourceCode\":\"content-my-content\",\"resourceName\":\"æçåå®¹\",\"resourceType\":\"1\",\"show\":\"1\",\"system\":\"midas\",\"updateTime\":\"1662405853000\",\"updateUser\":\"yawenruan\",\"url\":\"/content-admin/content-my-content\"}],\"createTime\":\"1662405738000\",\"createUser\":\"yawenruan\",\"id\":\"36\",\"parentId\":\"35\",\"priority\":0,\"resourceCode\":\"content-admin\",\"resourceName\":\"åå®¹ç®¡ç\",\"resourceType\":\"1\",\"show\":\"1\",\"system\":\"midas\",\"updateTime\":\"1662405738000\",\"updateUser\":\"yawenruan\",\"url\":\"/content-admin\"}],\"createTime\":\"1662405682000\",\"createUser\":\"yawenruan\",\"id\":\"35\",\"parentId\":\"-1\",\"priority\":4,\"resourceCode\":\"content-admin-parent\",\"resourceName\":\"åå®¹\",\"resourceType\":\"1\",\"show\":\"1\",\"system\":\"midas\",\"updateTime\":\"1662489047000\",\"updateUser\":\"yawenruan\",\"url\":\"/content-admin\"},{\"apiList\":[],\"childList\":[{\"apiList\":[],\"childList\":[{\"apiList\":[],\"childList\":[],\"createTime\":\"1659873605000\",\"createUser\":\"yawenruan\",\"id\":\"62\",\"parentId\":\"61\",\"priority\":1,\"resourceCode\":\"goods\",\"resourceName\":\"åååº\",\"resourceType\":\"1\",\"show\":\"1\",\"system\":\"midas\",\"updateTime\":\"1662341252000\",\"updateUser\":\"yawenruan\",\"url\":\"/goods-manage/goods\"},{\"apiList\":[],\"childList\":[],\"createTime\":\"1659873605000\",\"createUser\":\"yawenruan\",\"id\":\"63\",\"parentId\":\"61\",\"priority\":2,\"resourceCode\":\"goodsCategory\",\"resourceName\":\"åååç±»\",\"resourceType\":\"1\",\"show\":\"1\",\"system\":\"midas\",\"updateTime\":\"1662341252000\",\"updateUser\":\"yawenruan\",\"url\":\"/goods-manage/category\"}],\"createTime\":\"1659873605000\",\"createUser\":\"yawenruan\",\"id\":\"61\",\"parentId\":\"60\",\"priority\":1,\"resourceCode\":\"goods-manage-group\",\"resourceName\":\"ååç®¡ç\",\"resourceType\":\"1\",\"show\":\"1\",\"system\":\"midas\",\"updateTime\":\"1662341252000\",\"updateUser\":\"yawenruan\",\"url\":\"/goods-manage-group\"}],\"createTime\":\"1659873605000\",\"createUser\":\"yawenruan\",\"id\":\"60\",\"parentId\":\"-1\",\"priority\":5,\"resourceCode\":\"goods-manage\",\"resourceName\":\"åå\",\"resourceType\":\"1\",\"show\":\"1\",\"system\":\"midas\",\"updateTime\":\"1662341252000\",\"updateUser\":\"yawenruan\",\"url\":\"/goods-manage\"},{\"apiList\":[],\"childList\":[{\"apiList\":[],\"childList\":[{\"apiList\":[],\"childList\":[],\"createTime\":\"1662614271000\",\"createUser\":\"yawenruan\",\"id\":\"41\",\"parentId\":\"40\",\"priority\":0,\"resourceCode\":\"material\",\"resourceName\":\"ç´ æç®¡ç\",\"resourceType\":\"1\",\"show\":\"1\",\"system\":\"midas\",\"updateTime\":\"1662615092000\",\"updateUser\":\"yawenruan\",\"url\":\"/material-manage/material\"}],\"createTime\":\"1662614226000\",\"createUser\":\"yawenruan\",\"id\":\"40\",\"parentId\":\"13\",\"priority\":0,\"resourceCode\":\"material-manage-group\",\"resourceName\":\"ç´ æ\",\"resourceType\":\"1\",\"show\":\"1\",\"system\":\"midas\",\"updateTime\":\"1662614226000\",\"updateUser\":\"yawenruan\",\"url\":\"/material-manage-group\"}],\"createTime\":\"1661030742000\",\"createUser\":\"yawenruan\",\"id\":\"13\",\"parentId\":\"-1\",\"priority\":5,\"resourceCode\":\"material-manage\",\"resourceName\":\"ç´ æ\",\"resourceType\":\"1\",\"show\":\"1\",\"system\":\"midas\",\"updateTime\":\"1662489047000\",\"updateUser\":\"yawenruan\",\"url\":\"/material-manage\"},{\"apiList\":[],\"childList\":[{\"apiList\":[],\"childList\":[{\"apiList\":[],\"childList\":[],\"createTime\":\"1662354894000\",\"createUser\":\"yawenruan\",\"id\":\"34\",\"parentId\":\"33\",\"priority\":1,\"resourceCode\":\"tag\",\"resourceName\":\"æ ç­¾ç®¡ç\",\"resourceType\":\"1\",\"show\":\"1\",\"system\":\"midas\",\"updateTime\":\"1662357424000\",\"updateUser\":\"yawenruan\",\"url\":\"/tag-manage/tag\"}],\"createTime\":\"1662354866000\",\"createUser\":\"yawenruan\",\"id\":\"33\",\"parentId\":\"32\",\"priority\":1,\"resourceCode\":\"tag-manage\",\"resourceName\":\"æ ç­¾\",\"resourceType\":\"1\",\"show\":\"1\",\"system\":\"midas\",\"updateTime\":\"1662357245000\",\"updateUser\":\"yawenruan\",\"url\":\"/tag-manage\"}],\"createTime\":\"1662354820000\",\"createUser\":\"yawenruan\",\"id\":\"32\",\"parentId\":\"-1\",\"priority\":6,\"resourceCode\":\"tag-group\",\"resourceName\":\"æ ç­¾\",\"resourceType\":\"1\",\"show\":\"1\",\"system\":\"midas\",\"updateTime\":\"1662357257000\",\"updateUser\":\"yawenruan\",\"url\":\"/tag-manage\"},{\"apiList\":[],\"childList\":[{\"apiList\":[],\"childList\":[{\"apiList\":[],\"childList\":[],\"createTime\":\"1661807221000\",\"createUser\":\"yawenruan\",\"id\":\"25\",\"parentId\":\"24\",\"priority\":1,\"resourceCode\":\"my-application\",\"resourceName\":\"æçç³è¯·\",\"resourceType\":\"1\",\"show\":\"1\",\"system\":\"midas\",\"updateTime\":\"1661807221000\",\"updateUser\":\"yawenruan\",\"url\":\"/approval-manage/my-application\"},{\"apiList\":[],\"childList\":[],\"createTime\":\"1661807258000\",\"createUser\":\"yawenruan\",\"id\":\"26\",\"parentId\":\"24\",\"priority\":2,\"resourceCode\":\"my-approval\",\"resourceName\":\"æçå®¡æ¹\",\"resourceType\":\"1\",\"show\":\"1\",\"system\":\"midas\",\"updateTime\":\"1661807258000\",\"updateUser\":\"yawenruan\",\"url\":\"/approval-manage/my-approval\"}],\"createTime\":\"1661807168000\",\"createUser\":\"yawenruan\",\"id\":\"24\",\"parentId\":\"23\",\"priority\":1,\"resourceCode\":\"approval-manage\",\"resourceName\":\"å®¡æ¹ç®¡ç\",\"resourceType\":\"1\",\"show\":\"1\",\"system\":\"midas\",\"updateTime\":\"1661807168000\",\"updateUser\":\"yawenruan\",\"url\":\"/approval-manage\"}],\"createTime\":\"1661807106000\",\"createUser\":\"yawenruan\",\"id\":\"23\",\"parentId\":\"-1\",\"priority\":7,\"resourceCode\":\"approval-manage-group\",\"resourceName\":\"å®¡æ¹\",\"resourceType\":\"1\",\"show\":\"1\",\"system\":\"midas\",\"updateTime\":\"1662489047000\",\"updateUser\":\"yawenruan\",\"url\":\"/approval-manage\"},{\"apiList\":[],\"childList\":[{\"apiList\":[],\"childList\":[{\"apiList\":[],\"childList\":[],\"createTime\":\"1659873605000\",\"createUser\":\"yawenruan\",\"id\":\"49\",\"parentId\":\"48\",\"priority\":0,\"resourceCode\":\"data-overview\",\"resourceName\":\"æ°æ®æ¦è§\",\"resourceType\":\"1\",\"show\":\"1\",\"system\":\"midas\",\"updateTime\":\"1662341252000\",\"updateUser\":\"yawenruan\",\"url\":\"/data/data-overview\"}],\"createTime\":\"1659873605000\",\"createUser\":\"yawenruan\",\"id\":\"48\",\"parentId\":\"47\",\"priority\":1,\"resourceCode\":\"data-overview-group\",\"resourceName\":\"æ°æ®æ¦è§\",\"resourceType\":\"1\",\"show\":\"1\",\"system\":\"midas\",\"updateTime\":\"1662341252000\",\"updateUser\":\"yawenruan\",\"url\":\"/data-overview-group\"},{\"apiList\":[],\"childList\":[{\"apiList\":[],\"childList\":[],\"createTime\":\"1659873605000\",\"createUser\":\"yawenruan\",\"id\":\"51\",\"parentId\":\"50\",\"priority\":1,\"resourceCode\":\"data-shopview\",\"resourceName\":\"åºéºæ¦åµ\",\"resourceType\":\"1\",\"show\":\"1\",\"system\":\"midas\",\"updateTime\":\"1662341252000\",\"updateUser\":\"yawenruan\",\"url\":\"/data/data-shopview\"},{\"apiList\":[],\"childList\":[],\"createTime\":\"1659873605000\",\"createUser\":\"yawenruan\",\"id\":\"52\",\"parentId\":\"50\",\"priority\":2,\"resourceCode\":\"data-shoprevenue\",\"resourceName\":\"åºéºè¥æ¶\",\"resourceType\":\"1\",\"show\":\"1\",\"system\":\"midas\",\"updateTime\":\"1662341252000\",\"updateUser\":\"yawenruan\",\"url\":\"/data/data-shoprevenue\"},{\"apiList\":[],\"childList\":[],\"createTime\":\"1659873605000\",\"createUser\":\"yawenruan\",\"id\":\"53\",\"parentId\":\"50\",\"priority\":3,\"resourceCode\":\"data-shopactive\",\"resourceName\":\"åºéºæ´»è·\",\"resourceType\":\"1\",\"show\":\"1\",\"system\":\"midas\",\"updateTime\":\"1662341252000\",\"updateUser\":\"yawenruan\",\"url\":\"/data/data-shopactive\"}],\"createTime\":\"1659873605000\",\"createUser\":\"yawenruan\",\"id\":\"50\",\"parentId\":\"47\",\"priority\":2,\"resourceCode\":\"data-shop-group\",\"resourceName\":\"åºéºåæ\",\"resourceType\":\"1\",\"show\":\"1\",\"system\":\"midas\",\"updateTime\":\"1662341252000\",\"updateUser\":\"yawenruan\",\"url\":\"/data-shop-group\"},{\"apiList\":[],\"childList\":[{\"apiList\":[],\"childList\":[],\"createTime\":\"1659873605000\",\"createUser\":\"yawenruan\",\"id\":\"55\",\"parentId\":\"54\",\"priority\":1,\"resourceCode\":\"data-activityview\",\"resourceName\":\"æ´»å¨æ¦åµ\",\"resourceType\":\"1\",\"show\":\"1\",\"system\":\"midas\",\"updateTime\":\"1662341252000\",\"updateUser\":\"yawenruan\",\"url\":\"/data/data-activityview\"},{\"apiList\":[],\"childList\":[],\"createTime\":\"1659873605000\",\"createUser\":\"yawenruan\",\"id\":\"56\",\"parentId\":\"54\",\"priority\":2,\"resourceCode\":\"data-activityeffect\",\"resourceName\":\"æ´»å¨ææ\",\"resourceType\":\"1\",\"show\":\"1\",\"system\":\"midas\",\"updateTime\":\"1662341252000\",\"updateUser\":\"yawenruan\",\"url\":\"/data/data-activityeffect\"}],\"createTime\":\"1659873605000\",\"createUser\":\"yawenruan\",\"id\":\"54\",\"parentId\":\"47\",\"priority\":3,\"resourceCode\":\"data-activity-group\",\"resourceName\":\"æ´»å¨åæ\",\"resourceType\":\"1\",\"show\":\"1\",\"system\":\"midas\",\"updateTime\":\"1662341252000\",\"updateUser\":\"yawenruan\",\"url\":\"/data-activity-group\"},{\"apiList\":[],\"childList\":[{\"apiList\":[],\"childList\":[],\"createTime\":\"1659873605000\",\"createUser\":\"yawenruan\",\"id\":\"58\",\"parentId\":\"57\",\"priority\":1,\"resourceCode\":\"data-contentview\",\"resourceName\":\"åå®¹æ¦åµ\",\"resourceType\":\"1\",\"show\":\"1\",\"system\":\"midas\",\"updateTime\":\"1662341252000\",\"updateUser\":\"yawenruan\",\"url\":\"/data/data-contentview\"},{\"apiList\":[],\"childList\":[],\"createTime\":\"1659873605000\",\"createUser\":\"yawenruan\",\"id\":\"59\",\"parentId\":\"57\",\"priority\":2,\"resourceCode\":\"data-contenttraffic\",\"resourceName\":\"åå®¹å¼æµ\",\"resourceType\":\"1\",\"show\":\"1\",\"system\":\"midas\",\"updateTime\":\"1662341252000\",\"updateUser\":\"yawenruan\",\"url\":\"/data/data-contenttraffic\"}],\"createTime\":\"1659873605000\",\"createUser\":\"yawenruan\",\"id\":\"57\",\"parentId\":\"47\",\"priority\":4,\"resourceCode\":\"data-content-group\",\"resourceName\":\"åå®¹åæ\",\"resourceType\":\"1\",\"show\":\"1\",\"system\":\"midas\",\"updateTime\":\"1662341252000\",\"updateUser\":\"yawenruan\",\"url\":\"/data-content-group\"}],\"createTime\":\"1659873605000\",\"createUser\":\"yawenruan\",\"id\":\"47\",\"parentId\":\"-1\",\"priority\":8,\"resourceCode\":\"data\",\"resourceName\":\"æ°æ®\",\"resourceType\":\"1\",\"show\":\"1\",\"system\":\"midas\",\"updateTime\":\"1662341252000\",\"updateUser\":\"yawenruan\",\"url\":\"/data\"}],\"result_code\":\"0\",\"result_info\":\"ok\",\"x-request-id\":\"6de4780d-6ee7-416c-8a7b-e993ed49d2da\"}"
+							},
+							"headers": {
+								"x-proxy-by": "SmartGate-IDC",
+								"x-forwarded-for": "30.43.234.17,11.176.16.36,10.99.17.204,10.99.17.35",
+								"Content-Type": "application/json",
+								"Transfer-Encoding": "chunked",
+								"Connection": "keep-alive",
+								"Trpc-Trans-Info": "{\"X-Request-Id\":\"NmRlNDc4MGQtNmVlNy00MTZjLThhN2ItZTk5M2VkNDlkMmRh\",\"x_tencent_backend\":\"bWlkYXNfd2Vi\"}",
+								"X-Content-Type-Options": "nosniff",
+								"Date": "Wed, 12 Oct 2022 08:44:44 GMT",
+								"content-encoding": "gzip",
+								"x-rio-seq": "l95dyz5i-183038202"
+							}
+						}
+					}
+				]
+			},
+			"POST_https:_pagedoo.woa.com_/api/page_template.PageTemplateSvr/QueryTemplateList": {
+				"7F4B2900F2F800B86BC4156693FC9C43": [
+					{
+						"type": "response",
+						"key": {
+							"method": "POST",
+							"postData": "{\"page_num\":1,\"page_size\":18,\"sub_system_name\":\"shop\"}",
+							"isNavigationRequest": false,
+							"resourceType": "xhr",
+							"url": {
+								"protocol": "https:",
+								"username": "",
+								"password": "",
+								"hostname": "pagedoo.woa.com",
+								"port": "",
+								"pathname": "/api/page_template.PageTemplateSvr/QueryTemplateList",
+								"query": {
+									"appId": "202208301145014483768320"
+								}
+							},
+							"keyHash": "7F4B2900F2F800B86BC4156693FC9C43",
+							"extra": [
+								"xhr"
+							],
+							"base": "POST_https:_pagedoo.woa.com_/api/page_template.PageTemplateSvr/QueryTemplateList"
+						},
+						"startTime": 1665564291626,
+						"finishTime": 1665564291971,
+						"duration": 345,
+						"response": {
+							"cacheConfig": {
+								"x-proxy-by": "SmartGate-IDC",
+								"x-forwarded-for": "30.43.234.17,11.176.16.221,10.99.17.204,10.99.17.35",
+								"Content-Type": "application/json",
+								"Connection": "keep-alive",
+								"Date": "Wed, 12 Oct 2022 08:44:51 GMT",
+								"Trpc-Trans-Info": "{\"X-Request-Id\":\"MDg2OTRjNzQtNWE2ZS00NjM4LTkzZTMtM2ViZGMyMGI0Njg4\",\"trpc-env\":\"\",\"uber-trace-id\":\"M2I5NGU1M2EyNmJmMjEyZTozZjE1NDBkNzY3ZjdhYWRjOjNiOTRlNTNhMjZiZjIxMmU6MQ==\",\"x-tencent-accountid\":\"a3Jpc3Fp\",\"x-tencent-appid\":\"MjAyMjA4MzAxMTQ1MDE0NDgzNzY4MzIw\",\"x-tencent-merchantid\":\"ODAwMDAwMDA4\",\"x-tencent-nickname\":\"a3Jpc3Fp\",\"x-tencent-query-string-appId\":\"MjAyMjA4MzAxMTQ1MDE0NDgzNzY4MzIw\",\"x-tencent-systemcode\":\"bWlkYXM=\",\"x-tencent-uid\":\"a3Jpc3Fp\",\"x_tencent_backend\":\"bWlkYXNfd2Vi\"}",
+								"X-Content-Type-Options": "nosniff",
+								"content-encoding": "gzip",
+								"transfer-encoding": "chunked",
+								"x-rio-seq": "l95dz4pd-184119953"
+							},
+							"status": 200,
+							"body": {
+								"encoding": "binary",
+								"content": "{\"data\":{\"count\":1,\"template_list\":[{\"app_id\":\"PUB\",\"create_time\":\"1663075753\",\"create_type\":\"system\",\"create_user\":\"skycfwu\",\"desc\":\"æ åååæ¨¡æ¿\",\"favorite\":0,\"icon_url\":\"https://pagedoo.pay.qq.com/material/202208301145014483768320/8ddc4c7a6caed67c05ad0d7dd7301452.png\",\"introduce_time\":\"-62135596800\",\"introducer_id\":\"\",\"modify_time\":\"1663076299\",\"modify_user\":\"\",\"online_time\":\"-62135596800\",\"onliner_id\":\"\",\"poster_url\":\"https://pagedoo.pay.qq.com/material/202208301145014483768320/8ddc4c7a6caed67c05ad0d7dd7301452.png\",\"pre_view_url\":[\"https://pagedoo.pay.qq.com/material/202208301145014483768320/8ddc4c7a6caed67c05ad0d7dd7301452.png\",\"https://pagedoo.pay.qq.com/material/202208301145014483768320/8ddc4c7a6caed67c05ad0d7dd7301452.png\"],\"pv_cnt\":0,\"sub_system_name\":[\"shop\"],\"sys_code\":[\"midas\"],\"tag_type1\":[\"\"],\"tag_type2\":[\"\"],\"tag_type3\":[\"\"],\"tag_type4\":[\"\"],\"template_id\":\"temp1\",\"template_name\":\"æ åååæ¨¡æ¿\",\"template_status\":6,\"used\":0,\"used_cnt\":0,\"uv_cnt\":0,\"version\":1}]},\"result_code\":\"0\",\"result_info\":\"OK\",\"x-request-id\":\"08694c74-5a6e-4638-93e3-3ebdc20b4688\"}"
+							},
+							"headers": {
+								"x-proxy-by": "SmartGate-IDC",
+								"x-forwarded-for": "30.43.234.17,11.176.16.221,10.99.17.204,10.99.17.35",
+								"Content-Type": "application/json",
+								"Connection": "keep-alive",
+								"Date": "Wed, 12 Oct 2022 08:44:51 GMT",
+								"Trpc-Trans-Info": "{\"X-Request-Id\":\"MDg2OTRjNzQtNWE2ZS00NjM4LTkzZTMtM2ViZGMyMGI0Njg4\",\"trpc-env\":\"\",\"uber-trace-id\":\"M2I5NGU1M2EyNmJmMjEyZTozZjE1NDBkNzY3ZjdhYWRjOjNiOTRlNTNhMjZiZjIxMmU6MQ==\",\"x-tencent-accountid\":\"a3Jpc3Fp\",\"x-tencent-appid\":\"MjAyMjA4MzAxMTQ1MDE0NDgzNzY4MzIw\",\"x-tencent-merchantid\":\"ODAwMDAwMDA4\",\"x-tencent-nickname\":\"a3Jpc3Fp\",\"x-tencent-query-string-appId\":\"MjAyMjA4MzAxMTQ1MDE0NDgzNzY4MzIw\",\"x-tencent-systemcode\":\"bWlkYXM=\",\"x-tencent-uid\":\"a3Jpc3Fp\",\"x_tencent_backend\":\"bWlkYXNfd2Vi\"}",
+								"X-Content-Type-Options": "nosniff",
+								"content-encoding": "gzip",
+								"transfer-encoding": "chunked",
+								"x-rio-seq": "l95dz4pd-184119953"
+							}
+						}
+					}
+				]
+			},
+			"POST_https:_pagedoo.woa.com_/api/goods.Manage/QuerySourceProductList": {
+				"35F3DFD3582A2043E6E6F02DFFBF1629": [
+					{
+						"type": "response",
+						"key": {
+							"method": "POST",
+							"postData": "{\"current\":1,\"page_size\":20,\"product_name\":\"\"}",
+							"isNavigationRequest": false,
+							"resourceType": "xhr",
+							"url": {
+								"protocol": "https:",
+								"username": "",
+								"password": "",
+								"hostname": "pagedoo.woa.com",
+								"port": "",
+								"pathname": "/api/goods.Manage/QuerySourceProductList",
+								"query": {
+									"appId": "202208301145014483768320"
+								}
+							},
+							"keyHash": "35F3DFD3582A2043E6E6F02DFFBF1629",
+							"extra": [
+								"xhr"
+							],
+							"base": "POST_https:_pagedoo.woa.com_/api/goods.Manage/QuerySourceProductList"
+						},
+						"startTime": 1665564291627,
+						"finishTime": 1665564292276,
+						"duration": 649,
+						"response": {
+							"cacheConfig": {
+								"x-proxy-by": "SmartGate-IDC",
+								"x-forwarded-for": "30.43.234.17,11.176.16.222,10.99.17.204,10.99.17.35",
+								"Content-Type": "application/json",
+								"Transfer-Encoding": "chunked",
+								"Connection": "keep-alive",
+								"Date": "Wed, 12 Oct 2022 08:44:52 GMT",
+								"Trpc-Trans-Info": "{\"X-Request-Id\":\"NjBiMzIwMmUtZGQ1MS00NTQ0LTkxNDMtODM4ZTc0MjhlZTYx\",\"trpc-env\":\"\",\"uber-trace-id\":\"NzMxZTUyZmJlNTllYTQwNjowYjI5ZTkwNzA3MGI4ZjJiOjczMWU1MmZiZTU5ZWE0MDY6MQ==\",\"x-tencent-accountid\":\"a3Jpc3Fp\",\"x-tencent-appid\":\"MjAyMjA4MzAxMTQ1MDE0NDgzNzY4MzIw\",\"x-tencent-merchantid\":\"ODAwMDAwMDA4\",\"x-tencent-nickname\":\"a3Jpc3Fp\",\"x-tencent-query-string-appId\":\"MjAyMjA4MzAxMTQ1MDE0NDgzNzY4MzIw\",\"x-tencent-systemcode\":\"bWlkYXM=\",\"x-tencent-uid\":\"a3Jpc3Fp\",\"x_tencent_backend\":\"bWlkYXNfd2Vi\"}",
+								"X-Content-Type-Options": "nosniff",
+								"content-encoding": "gzip",
+								"x-rio-seq": "l95dz4xv-138294292"
+							},
+							"status": 200,
+							"body": {
+								"encoding": "binary",
+								"content": "{\"data\":{\"product_list\":[{\"act_end_time\":\"2022-09-30 15:53:14\",\"act_on_begin_time\":\"2022-09-25 15:53:14\",\"audit_status\":3,\"batch_begin_time\":\"\",\"batch_end_time\":\"\",\"bind_content_id\":\"800000008|PRO-KFJ5JCQAPGQO|\",\"category_list\":[\"midas_202208301145014483768320_3_202209261546076233637248\"],\"experience_status\":2,\"extend\":{},\"head_img\":\"\",\"icon\":\"//pagedoo.pay.qq.com/material/202208301145014483768320/803a490ce816362f5d6b941cf786e3f3.jpg\",\"img_list\":[],\"off_end_time\":\"\",\"on_act\":1,\"on_begin_time\":\"\",\"on_shop\":0,\"pinyin\":\"kongdianquanhongbao\",\"price\":10,\"product_id\":\"PRO-KFJ5JCQAPGQO\",\"product_image\":\"https://midas.gtimg.cn/cpay_config/çèä»£å¸log.png\",\"product_name\":\"ç©ºç¹å¸çº¢å\",\"product_type\":\"goods\",\"provide_type\":\"EMPTY\",\"release_status\":2,\"res_offer_id\":\"800000008\",\"res_offer_name\":\"\",\"resource_type\":\"RES-KMII1QVHAQLB\",\"shop_off_end_time\":\"2022-09-26 15:53:14\",\"shop_on_begin_time\":\"2022-09-26 15:53:14\",\"tag_list\":[],\"video_cover\":\"\",\"video_id\":\"\"},{\"act_end_time\":\"2022-11-30 00:00:00\",\"act_on_begin_time\":\"2022-08-26 00:00:00\",\"audit_status\":3,\"batch_begin_time\":\"\",\"batch_end_time\":\"\",\"bind_content_id\":\"800000008|PRO-6CJHTG91CJTQ|\",\"category_list\":[],\"experience_status\":2,\"extend\":{},\"head_img\":\"\",\"icon\":\"\",\"img_list\":[],\"off_end_time\":\"\",\"on_act\":1,\"on_begin_time\":\"\",\"on_shop\":0,\"pinyin\":\"kongdianquanhongbao\",\"price\":10,\"product_id\":\"PRO-6CJHTG91CJTQ\",\"product_image\":\"https://midas.gtimg.cn/cpay_config/çèä»£å¸log.png\",\"product_name\":\"ç©ºç¹å¸çº¢å\",\"product_type\":\"goods\",\"provide_type\":\"UNIPDT\",\"release_status\":2,\"res_offer_id\":\"800000008\",\"res_offer_name\":\"\",\"resource_type\":\"RES-HPDNQOPHTSPR\",\"shop_off_end_time\":\"2022-09-29 16:38:46\",\"shop_on_begin_time\":\"2022-09-29 16:38:46\",\"tag_list\":[],\"video_cover\":\"\",\"video_id\":\"\"},{\"act_end_time\":\"2022-10-31 00:00:00\",\"act_on_begin_time\":\"2022-09-26 00:00:00\",\"audit_status\":3,\"batch_begin_time\":\"\",\"batch_end_time\":\"\",\"bind_content_id\":\"800000008|PRO-AFVAKIIRRCAF|\",\"category_list\":[],\"experience_status\":2,\"extend\":{},\"head_img\":\"\",\"icon\":\"\",\"img_list\":[],\"off_end_time\":\"\",\"on_act\":1,\"on_begin_time\":\"\",\"on_shop\":1,\"pinyin\":\"kongdianquanhongbao\",\"price\":10,\"product_id\":\"PRO-AFVAKIIRRCAF\",\"product_image\":\"https://midas.gtimg.cn/cpay_config/çèä»£å¸log.png\",\"product_name\":\"ç©ºç¹å¸çº¢å\",\"product_type\":\"goods\",\"provide_type\":\"EMPTY\",\"release_status\":2,\"res_offer_id\":\"800000008\",\"res_offer_name\":\"\",\"resource_type\":\"RES-FJFMVINICOJQ\",\"shop_off_end_time\":\"2022-09-30 21:33:15\",\"shop_on_begin_time\":\"2022-09-26 21:33:15\",\"tag_list\":[],\"video_cover\":\"\",\"video_id\":\"\"},{\"act_end_time\":\"\",\"act_on_begin_time\":\"\",\"audit_status\":0,\"batch_begin_time\":\"\",\"batch_end_time\":\"\",\"bind_content_id\":\"800000008|PRO-QTJLG0F8IGTD|\",\"category_list\":[],\"experience_status\":0,\"extend\":{},\"head_img\":\"\",\"icon\":\"\",\"img_list\":[],\"off_end_time\":\"\",\"on_act\":0,\"on_begin_time\":\"\",\"on_shop\":0,\"pinyin\":\"\",\"price\":100,\"product_id\":\"PRO-QTJLG0F8IGTD\",\"product_image\":\"https://midas.gtimg.cn/cpay_config/200x200.jpg\",\"product_name\":\"éªè¯å­æ¸ é\",\"product_type\":\"redeem\",\"provide_type\":\"\",\"release_status\":0,\"res_offer_id\":\"800000008\",\"res_offer_name\":\"\",\"resource_type\":\"RES-VIQTLIJ5CQLL\",\"shop_off_end_time\":\"\",\"shop_on_begin_time\":\"\",\"tag_list\":[],\"video_cover\":\"\",\"video_id\":\"\"},{\"act_end_time\":\"2022-09-30 15:47:06\",\"act_on_begin_time\":\"2022-09-26 15:47:06\",\"audit_status\":3,\"batch_begin_time\":\"\",\"batch_end_time\":\"\",\"bind_content_id\":\"800000008|PRO-NLRIA429SPVN|\",\"category_list\":[\"midas_202208301145014483768320_3_202209261546375233637248\"],\"experience_status\":2,\"extend\":{},\"head_img\":\"\",\"icon\":\"//pagedoo.pay.qq.com/material/202208301145014483768320/915917c364bddf935b904248e7b489da.png\",\"img_list\":[],\"off_end_time\":\"\",\"on_act\":1,\"on_begin_time\":\"\",\"on_shop\":1,\"pinyin\":\"\",\"price\":420,\"product_id\":\"PRO-NLRIA429SPVN\",\"product_image\":\"https://midas.gtimg.cn/cpay_config/ç¸æºå.png\",\"product_name\":\"test\",\"product_type\":\"token\",\"provide_type\":\"\",\"release_status\":2,\"res_offer_id\":\"800000008\",\"res_offer_name\":\"\",\"resource_type\":\"RES-RHQEO8B7VALF\",\"shop_off_end_time\":\"2022-09-30 15:47:06\",\"shop_on_begin_time\":\"2022-09-26 15:47:06\",\"tag_list\":[],\"video_cover\":\"\",\"video_id\":\"\"},{\"act_end_time\":\"\",\"act_on_begin_time\":\"\",\"audit_status\":0,\"batch_begin_time\":\"\",\"batch_end_time\":\"\",\"bind_content_id\":\"800000008|abcdefg|\",\"category_list\":[],\"experience_status\":0,\"extend\":{},\"head_img\":\"\",\"icon\":\"\",\"img_list\":[],\"off_end_time\":\"\",\"on_act\":0,\"on_begin_time\":\"\",\"on_shop\":0,\"pinyin\":\"\",\"price\":280,\"product_id\":\"abcdefg\",\"product_image\":\"https://midas.gtimg.cn/cpay_config/ç¸æºå.png\",\"product_name\":\"ceshidaibi\",\"product_type\":\"token\",\"provide_type\":\"\",\"release_status\":0,\"res_offer_id\":\"800000008\",\"res_offer_name\":\"\",\"resource_type\":\"RES-RHQEO8B7VALF\",\"shop_off_end_time\":\"\",\"shop_on_begin_time\":\"\",\"tag_list\":[],\"video_cover\":\"\",\"video_id\":\"\"},{\"act_end_time\":\"\",\"act_on_begin_time\":\"\",\"audit_status\":0,\"batch_begin_time\":\"\",\"batch_end_time\":\"\",\"bind_content_id\":\"800000008|jecky_pid03|\",\"category_list\":[],\"experience_status\":0,\"extend\":{},\"head_img\":\"\",\"icon\":\"\",\"img_list\":[],\"off_end_time\":\"\",\"on_act\":0,\"on_begin_time\":\"\",\"on_shop\":0,\"pinyin\":\"\",\"price\":210,\"product_id\":\"jecky_pid03\",\"product_image\":\"https://midas.gtimg.cn/cpay_config/ç¸æºå.png\",\"product_name\":\"äºæ¸æ¡£ä½01\",\"product_type\":\"token\",\"provide_type\":\"\",\"release_status\":0,\"res_offer_id\":\"800000008\",\"res_offer_name\":\"\",\"resource_type\":\"RES-RHQEO8B7VALF\",\"shop_off_end_time\":\"\",\"shop_on_begin_time\":\"\",\"tag_list\":[],\"video_cover\":\"\",\"video_id\":\"\"},{\"act_end_time\":\"\",\"act_on_begin_time\":\"\",\"audit_status\":0,\"batch_begin_time\":\"\",\"batch_end_time\":\"\",\"bind_content_id\":\"800000008|PRO-8QVEJKR5PLUP|\",\"category_list\":[],\"experience_status\":0,\"extend\":{},\"head_img\":\"\",\"icon\":\"\",\"img_list\":[],\"off_end_time\":\"\",\"on_act\":0,\"on_begin_time\":\"\",\"on_shop\":0,\"pinyin\":\"\",\"price\":70,\"product_id\":\"PRO-8QVEJKR5PLUP\",\"product_image\":\"https://midas.gtimg.cn/cpay_config/ç¸æºå.png\",\"product_name\":\"æµè¯ä»£å¸\",\"product_type\":\"token\",\"provide_type\":\"\",\"release_status\":0,\"res_offer_id\":\"800000008\",\"res_offer_name\":\"\",\"resource_type\":\"RES-RHQEO8B7VALF\",\"shop_off_end_time\":\"\",\"shop_on_begin_time\":\"\",\"tag_list\":[],\"video_cover\":\"\",\"video_id\":\"\"},{\"act_end_time\":\"2022-09-30 00:00:00\",\"act_on_begin_time\":\"2022-09-26 00:00:00\",\"audit_status\":3,\"batch_begin_time\":\"\",\"batch_end_time\":\"\",\"bind_content_id\":\"800000008|PRO-AG3B6HRVDDSU|\",\"category_list\":[],\"experience_status\":2,\"extend\":{},\"head_img\":\"\",\"icon\":\"\",\"img_list\":[],\"off_end_time\":\"\",\"on_act\":1,\"on_begin_time\":\"\",\"on_shop\":1,\"pinyin\":\"duodedaibi\",\"price\":700,\"product_id\":\"PRO-AG3B6HRVDDSU\",\"product_image\":\"https://midas.gtimg.cn/cpay_config/ç¸æºå.png\",\"product_name\":\"å¤çä»£å¸\",\"product_type\":\"token\",\"provide_type\":\"\",\"release_status\":2,\"res_offer_id\":\"800000008\",\"res_offer_name\":\"\",\"resource_type\":\"RES-RHQEO8B7VALF\",\"shop_off_end_time\":\"2022-09-30 00:00:00\",\"shop_on_begin_time\":\"2022-09-26 00:00:00\",\"tag_list\":[],\"video_cover\":\"\",\"video_id\":\"\"},{\"act_end_time\":\"\",\"act_on_begin_time\":\"\",\"audit_status\":0,\"batch_begin_time\":\"\",\"batch_end_time\":\"\",\"bind_content_id\":\"800000008|PRO-CS1FSNONHEFG|\",\"category_list\":[],\"experience_status\":0,\"extend\":{},\"head_img\":\"\",\"icon\":\"\",\"img_list\":[],\"off_end_time\":\"\",\"on_act\":0,\"on_begin_time\":\"\",\"on_shop\":0,\"pinyin\":\"\",\"price\":70,\"product_id\":\"PRO-CS1FSNONHEFG\",\"product_image\":\"https://midas.gtimg.cn/cpay_config/ç¸æºå.png\",\"product_name\":\"jsontu-éäºéä»£å¸\",\"product_type\":\"token\",\"provide_type\":\"\",\"release_status\":0,\"res_offer_id\":\"800000008\",\"res_offer_name\":\"\",\"resource_type\":\"RES-RHQEO8B7VALF\",\"shop_off_end_time\":\"\",\"shop_on_begin_time\":\"\",\"tag_list\":[],\"video_cover\":\"\",\"video_id\":\"\"},{\"act_end_time\":\"\",\"act_on_begin_time\":\"\",\"audit_status\":0,\"batch_begin_time\":\"\",\"batch_end_time\":\"\",\"bind_content_id\":\"800000008|PRO-O2P1JDJOCANN|\",\"category_list\":[],\"experience_status\":0,\"extend\":{},\"head_img\":\"\",\"icon\":\"\",\"img_list\":[],\"off_end_time\":\"\",\"on_act\":0,\"on_begin_time\":\"\",\"on_shop\":0,\"pinyin\":\"\",\"price\":140,\"product_id\":\"PRO-O2P1JDJOCANN\",\"product_image\":\"https://midas.gtimg.cn/cpay_config/ç¸æºå.png\",\"product_name\":\"æµè¯ä»£å¸\",\"product_type\":\"token\",\"provide_type\":\"\",\"release_status\":0,\"res_offer_id\":\"800000008\",\"res_offer_name\":\"\",\"resource_type\":\"RES-RHQEO8B7VALF\",\"shop_off_end_time\":\"\",\"shop_on_begin_time\":\"\",\"tag_list\":[],\"video_cover\":\"\",\"video_id\":\"\"},{\"act_end_time\":\"2022-09-30 00:00:00\",\"act_on_begin_time\":\"2022-09-26 00:00:00\",\"audit_status\":3,\"batch_begin_time\":\"\",\"batch_end_time\":\"\",\"bind_content_id\":\"800000008|PRO-QHDTJSNMQFUJ|\",\"category_list\":[],\"experience_status\":2,\"extend\":{},\"head_img\":\"\",\"icon\":\"\",\"img_list\":[],\"off_end_time\":\"\",\"on_act\":1,\"on_begin_time\":\"\",\"on_shop\":1,\"pinyin\":\"yingxiaozengsongzhuanyongdaibi\",\"price\":10,\"product_id\":\"PRO-QHDTJSNMQFUJ\",\"product_image\":\"https://midas.gtimg.cn/cpay_config/ç¸æºå.png\",\"product_name\":\"è¥éèµ éä¸ç¨ä»£å¸\",\"product_type\":\"token\",\"provide_type\":\"\",\"release_status\":1,\"res_offer_id\":\"800000008\",\"res_offer_name\":\"\",\"resource_type\":\"RES-RHQEO8B7VALF\",\"shop_off_end_time\":\"2022-09-30 00:00:00\",\"shop_on_begin_time\":\"2022-09-26 00:00:00\",\"tag_list\":[],\"video_cover\":\"\",\"video_id\":\"\"},{\"act_end_time\":\"\",\"act_on_begin_time\":\"\",\"audit_status\":0,\"batch_begin_time\":\"\",\"batch_end_time\":\"\",\"bind_content_id\":\"800000008|test|\",\"category_list\":[],\"experience_status\":0,\"extend\":{},\"head_img\":\"\",\"icon\":\"\",\"img_list\":[],\"off_end_time\":\"\",\"on_act\":0,\"on_begin_time\":\"\",\"on_shop\":0,\"pinyin\":\"\",\"price\":350,\"product_id\":\"test\",\"product_image\":\"https://midas.gtimg.cn/cpay_config/ç¸æºå.png\",\"product_name\":\"test\",\"product_type\":\"token\",\"provide_type\":\"\",\"release_status\":0,\"res_offer_id\":\"800000008\",\"res_offer_name\":\"\",\"resource_type\":\"RES-RHQEO8B7VALF\",\"shop_off_end_time\":\"\",\"shop_on_begin_time\":\"\",\"tag_list\":[],\"video_cover\":\"\",\"video_id\":\"\"},{\"act_end_time\":\"\",\"act_on_begin_time\":\"\",\"audit_status\":0,\"batch_begin_time\":\"\",\"batch_end_time\":\"\",\"bind_content_id\":\"800000008|DHQ_HMTQKJF3KQIS|\",\"category_list\":[],\"experience_status\":0,\"extend\":{},\"head_img\":\"\",\"icon\":\"\",\"img_list\":[],\"off_end_time\":\"\",\"on_act\":0,\"on_begin_time\":\"\",\"on_shop\":0,\"pinyin\":\"\",\"price\":1600,\"product_id\":\"DHQ_HMTQKJF3KQIS\",\"product_image\":\"\",\"product_name\":\"testDhq3\",\"product_type\":\"redeem\",\"provide_type\":\"\",\"release_status\":0,\"res_offer_id\":\"800000008\",\"res_offer_name\":\"\",\"resource_type\":\"RES-0OG4O3EQOPQS\",\"shop_off_end_time\":\"\",\"shop_on_begin_time\":\"\",\"tag_list\":[],\"video_cover\":\"\",\"video_id\":\"\"},{\"act_end_time\":\"\",\"act_on_begin_time\":\"\",\"audit_status\":0,\"batch_begin_time\":\"\",\"batch_end_time\":\"\",\"bind_content_id\":\"800000008|DHQ_S21QFJA9SRPK|\",\"category_list\":[],\"experience_status\":0,\"extend\":{},\"head_img\":\"\",\"icon\":\"\",\"img_list\":[],\"off_end_time\":\"\",\"on_act\":0,\"on_begin_time\":\"\",\"on_shop\":0,\"pinyin\":\"\",\"price\":800,\"product_id\":\"DHQ_S21QFJA9SRPK\",\"product_image\":\"\",\"product_name\":\"testDhq2\",\"product_type\":\"redeem\",\"provide_type\":\"\",\"release_status\":0,\"res_offer_id\":\"800000008\",\"res_offer_name\":\"\",\"resource_type\":\"RES-JOVLDNE3OBAS\",\"shop_off_end_time\":\"\",\"shop_on_begin_time\":\"\",\"tag_list\":[],\"video_cover\":\"\",\"video_id\":\"\"},{\"act_end_time\":\"\",\"act_on_begin_time\":\"\",\"audit_status\":0,\"batch_begin_time\":\"\",\"batch_end_time\":\"\",\"bind_content_id\":\"800000008|DHQ_5N3K5MULCPLD|\",\"category_list\":[],\"experience_status\":0,\"extend\":{},\"head_img\":\"\",\"icon\":\"\",\"img_list\":[],\"off_end_time\":\"\",\"on_act\":0,\"on_begin_time\":\"\",\"on_shop\":0,\"pinyin\":\"\",\"price\":1600,\"product_id\":\"DHQ_5N3K5MULCPLD\",\"product_image\":\"\",\"product_name\":\"testDhq3\",\"product_type\":\"redeem\",\"provide_type\":\"\",\"release_status\":0,\"res_offer_id\":\"800000008\",\"res_offer_name\":\"\",\"resource_type\":\"RES-JCGF7RHFOTUT\",\"shop_off_end_time\":\"\",\"shop_on_begin_time\":\"\",\"tag_list\":[],\"video_cover\":\"\",\"video_id\":\"\"},{\"act_end_time\":\"\",\"act_on_begin_time\":\"\",\"audit_status\":0,\"batch_begin_time\":\"\",\"batch_end_time\":\"\",\"bind_content_id\":\"800000008|DHQ_VRRFBNFHVPNU|\",\"category_list\":[],\"experience_status\":0,\"extend\":{},\"head_img\":\"\",\"icon\":\"\",\"img_list\":[],\"off_end_time\":\"\",\"on_act\":0,\"on_begin_time\":\"\",\"on_shop\":0,\"pinyin\":\"\",\"price\":800,\"product_id\":\"DHQ_VRRFBNFHVPNU\",\"product_image\":\"\",\"product_name\":\"testDhq2\",\"product_type\":\"redeem\",\"provide_type\":\"\",\"release_status\":0,\"res_offer_id\":\"800000008\",\"res_offer_name\":\"\",\"resource_type\":\"RES-4LE34348TODU\",\"shop_off_end_time\":\"\",\"shop_on_begin_time\":\"\",\"tag_list\":[],\"video_cover\":\"\",\"video_id\":\"\"},{\"act_end_time\":\"\",\"act_on_begin_time\":\"\",\"audit_status\":0,\"batch_begin_time\":\"\",\"batch_end_time\":\"\",\"bind_content_id\":\"800000008|jecky_pid01|\",\"category_list\":[],\"experience_status\":0,\"extend\":{},\"head_img\":\"\",\"icon\":\"\",\"img_list\":[],\"off_end_time\":\"\",\"on_act\":0,\"on_begin_time\":\"\",\"on_shop\":0,\"pinyin\":\"\",\"price\":70,\"product_id\":\"jecky_pid01\",\"product_image\":\"https://midas.gtimg.cn/cpay_config/ç¸æºå.png\",\"product_name\":\"æ¥å£å½å¥æ¡£ä½\",\"product_type\":\"token\",\"provide_type\":\"\",\"release_status\":0,\"res_offer_id\":\"800000008\",\"res_offer_name\":\"\",\"resource_type\":\"RES-RHQEO8B7VALF\",\"shop_off_end_time\":\"\",\"shop_on_begin_time\":\"\",\"tag_list\":[],\"video_cover\":\"\",\"video_id\":\"\"},{\"act_end_time\":\"2023-01-31 00:00:00\",\"act_on_begin_time\":\"2022-09-18 00:00:00\",\"audit_status\":3,\"batch_begin_time\":\"\",\"batch_end_time\":\"\",\"bind_content_id\":\"800000008|IEGAMS-327470-364748_1502497|\",\"category_list\":[\"midas_202208301145014483768320_3_202209261546076233637248\"],\"experience_status\":2,\"extend\":{},\"head_img\":\"//pagedoo.pay.qq.com/material/202208301145014483768320/4b80095a7fde49c1285b43b10b814249.png\",\"icon\":\"//pagedoo.pay.qq.com/material/202208301145014483768320/9a3f5e328585bd8a59ada85e8cdae9c3.jpg\",\"img_list\":[],\"off_end_time\":\"\",\"on_act\":1,\"on_begin_time\":\"\",\"on_shop\":1,\"pinyin\":\"zuanshi\",\"price\":300,\"product_id\":\"IEGAMS-327470-364748_1502497\",\"product_image\":\"\",\"product_name\":\"é»ç³5\",\"product_type\":\"ams\",\"provide_type\":\"AMS\",\"release_status\":2,\"res_offer_id\":\"800000008\",\"res_offer_name\":\"\",\"resource_type\":\"AMSRES-1502497\",\"shop_off_end_time\":\"2022-12-31 00:00:00\",\"shop_on_begin_time\":\"2022-09-11 00:00:00\",\"tag_list\":[{\"tag_desc\":\"\",\"tag_id\":\"midas_202208301145014483768320_202209092040062933637248\",\"tag_name\":\"ç®è¤\"},{\"tag_desc\":\"\",\"tag_id\":\"midas_202208301145014483768320_202209092040062933637250\",\"tag_name\":\"å²è¯\"}],\"video_cover\":\"\",\"video_id\":\"\"},{\"act_end_time\":\"2022-09-29 15:58:04\",\"act_on_begin_time\":\"2022-09-29 15:58:04\",\"audit_status\":3,\"batch_begin_time\":\"\",\"batch_end_time\":\"\",\"bind_content_id\":\"800000008|IEGAMS-327470-364748_1504766|\",\"category_list\":[\"midas_202208301145014483768320_3_202209261546174623637248\"],\"experience_status\":2,\"extend\":{},\"head_img\":\"//pagedoo.pay.qq.com/material/202208301145014483768320/5a152ae5694e49e1a1fbe21f77f5813e.jpeg\",\"icon\":\"//pagedoo.pay.qq.com/material/202208301145014483768320/5a152ae5694e49e1a1fbe21f77f5813e.jpeg\",\"img_list\":[\"//pagedoo.pay.qq.com/material/202208301145014483768320/9a3f5e328585bd8a59ada85e8cdae9c3.jpg\",\"//pagedoo.pay.qq.com/material/202208301145014483768320/4b80095a7fde49c1285b43b10b814249.png\"],\"off_end_time\":\"\",\"on_act\":1,\"on_begin_time\":\"\",\"on_shop\":1,\"pinyin\":\"zuanshi\",\"price\":500,\"product_id\":\"IEGAMS-327470-364748_1504766\",\"product_image\":\"\",\"product_name\":\"é»ç³10\",\"product_type\":\"ams\",\"provide_type\":\"AMS\",\"release_status\":2,\"res_offer_id\":\"800000008\",\"res_offer_name\":\"\",\"resource_type\":\"AMSRES-1504766\",\"shop_off_end_time\":\"2022-09-29 15:58:04\",\"shop_on_begin_time\":\"2022-09-29 15:58:04\",\"tag_list\":[],\"video_cover\":\"\",\"video_id\":\"\"}],\"total\":4012},\"result_code\":\"0\",\"result_info\":\"ok\",\"x-request-id\":\"60b3202e-dd51-4544-9143-838e7428ee61\"}"
+							},
+							"headers": {
+								"x-proxy-by": "SmartGate-IDC",
+								"x-forwarded-for": "30.43.234.17,11.176.16.222,10.99.17.204,10.99.17.35",
+								"Content-Type": "application/json",
+								"Transfer-Encoding": "chunked",
+								"Connection": "keep-alive",
+								"Date": "Wed, 12 Oct 2022 08:44:52 GMT",
+								"Trpc-Trans-Info": "{\"X-Request-Id\":\"NjBiMzIwMmUtZGQ1MS00NTQ0LTkxNDMtODM4ZTc0MjhlZTYx\",\"trpc-env\":\"\",\"uber-trace-id\":\"NzMxZTUyZmJlNTllYTQwNjowYjI5ZTkwNzA3MGI4ZjJiOjczMWU1MmZiZTU5ZWE0MDY6MQ==\",\"x-tencent-accountid\":\"a3Jpc3Fp\",\"x-tencent-appid\":\"MjAyMjA4MzAxMTQ1MDE0NDgzNzY4MzIw\",\"x-tencent-merchantid\":\"ODAwMDAwMDA4\",\"x-tencent-nickname\":\"a3Jpc3Fp\",\"x-tencent-query-string-appId\":\"MjAyMjA4MzAxMTQ1MDE0NDgzNzY4MzIw\",\"x-tencent-systemcode\":\"bWlkYXM=\",\"x-tencent-uid\":\"a3Jpc3Fp\",\"x_tencent_backend\":\"bWlkYXNfd2Vi\"}",
+								"X-Content-Type-Options": "nosniff",
+								"content-encoding": "gzip",
+								"x-rio-seq": "l95dz4xv-138294292"
+							}
+						}
+					}
+				]
+			},
+			"POST_https:_pagedoo.woa.com_/api/shop_manage.ShopSvr/ShopListQuery": {
+				"FA231787B0ED6B2D6C8E17FF5CE722DA": [
+					{
+						"type": "response",
+						"key": {
+							"method": "POST",
+							"postData": "{\"audit_status\":[],\"page_num\":1,\"page_size\":20,\"release_status\":[],\"sandbox_status\":[],\"shop_name\":[]}",
+							"isNavigationRequest": false,
+							"resourceType": "xhr",
+							"url": {
+								"protocol": "https:",
+								"username": "",
+								"password": "",
+								"hostname": "pagedoo.woa.com",
+								"port": "",
+								"pathname": "/api/shop_manage.ShopSvr/ShopListQuery",
+								"query": {
+									"appId": "202208301145014483768320"
+								}
+							},
+							"keyHash": "FA231787B0ED6B2D6C8E17FF5CE722DA",
+							"extra": [
+								"xhr"
+							],
+							"base": "POST_https:_pagedoo.woa.com_/api/shop_manage.ShopSvr/ShopListQuery"
+						},
+						"startTime": 1665564298604,
+						"finishTime": 1665564298820,
+						"duration": 216,
+						"response": {
+							"cacheConfig": {
+								"x-proxy-by": "SmartGate-IDC",
+								"x-forwarded-for": "30.43.234.17,11.176.16.225,10.99.17.204,10.99.17.35",
+								"Content-Type": "application/json",
+								"Transfer-Encoding": "chunked",
+								"Connection": "keep-alive",
+								"Trpc-Trans-Info": "{\"X-Request-Id\":\"ZTJhODVhNjEtYzJkOC00NGUzLWI5YzgtZjhhNzk5YzY0NjM1\",\"x_tencent_backend\":\"bWlkYXNfd2Vi\"}",
+								"X-Content-Type-Options": "nosniff",
+								"Date": "Wed, 12 Oct 2022 08:44:58 GMT",
+								"content-encoding": "gzip",
+								"x-rio-seq": "l95dz9zk-197757336"
+							},
+							"status": 200,
+							"body": {
+								"encoding": "binary",
+								"content": "{\"data\":{\"count\":28,\"shop_list\":[{\"audit_status\":\"1\",\"create_time\":1665452647,\"create_user\":\"v_zilinwen\",\"labels\":[],\"modify_time\":1665452805,\"poster_url\":\"https://pagedoo.woa.com/material/202208301145014483768320/d050c4f043220a17d9746af42bc05c02.png\",\"release_status\":\"1\",\"release_time\":0,\"release_user\":\"\",\"sandbox_status\":\"1\",\"shop_id\":\"ct1665452647_HVCSEBIQ\",\"shop_name\":\"æ åååæ¨¡æ¿\",\"template_id\":\"temp1\",\"terminals\":[]},{\"audit_status\":\"1\",\"create_time\":1665452646,\"create_user\":\"v_zilinwen\",\"labels\":[],\"modify_time\":1665452647,\"poster_url\":\"https://pagedoo.woa.com/material/202208301145014483768320/d050c4f043220a17d9746af42bc05c02.png\",\"release_status\":\"1\",\"release_time\":0,\"release_user\":\"\",\"sandbox_status\":\"1\",\"shop_id\":\"ct1665452646_XJUDFZZT\",\"shop_name\":\"æ åååæ¨¡æ¿\",\"template_id\":\"temp1\",\"terminals\":[]},{\"audit_status\":\"1\",\"create_time\":1665394905,\"create_user\":\"v_yingzhelu\",\"labels\":[],\"modify_time\":1665394906,\"poster_url\":\"https://pagedoo.woa.com/material/202208301145014483768320/d050c4f043220a17d9746af42bc05c02.png\",\"release_status\":\"1\",\"release_time\":0,\"release_user\":\"\",\"sandbox_status\":\"1\",\"shop_id\":\"ct1665394905_XUIOSEUE\",\"shop_name\":\"æ åååæ¨¡æ¿\",\"template_id\":\"temp1\",\"terminals\":[]},{\"audit_status\":\"1\",\"create_time\":1665391514,\"create_user\":\"v_yingzhelu\",\"labels\":[],\"modify_time\":1665391515,\"poster_url\":\"https://pagedoo.woa.com/material/202208301145014483768320/d050c4f043220a17d9746af42bc05c02.png\",\"release_status\":\"1\",\"release_time\":0,\"release_user\":\"\",\"sandbox_status\":\"1\",\"shop_id\":\"ct1665391514_DUVRQFVA\",\"shop_name\":\"æ åååæ¨¡æ¿\",\"template_id\":\"temp1\",\"terminals\":[]},{\"audit_status\":\"1\",\"create_time\":1665390752,\"create_user\":\"v_yingzhelu\",\"labels\":[],\"modify_time\":1665390752,\"poster_url\":\"https://pagedoo.woa.com/material/202208301145014483768320/d050c4f043220a17d9746af42bc05c02.png\",\"release_status\":\"1\",\"release_time\":0,\"release_user\":\"\",\"sandbox_status\":\"1\",\"shop_id\":\"ct1665390752_GBGWZBBE\",\"shop_name\":\"æ åååæ¨¡æ¿\",\"template_id\":\"temp1\",\"terminals\":[]},{\"audit_status\":\"3\",\"create_time\":1664438846,\"create_user\":\"shengzheli\",\"labels\":[],\"modify_time\":1664440147,\"poster_url\":\"https://pagedoo.woa.com/material/202208301145014483768320/d050c4f043220a17d9746af42bc05c02.png\",\"release_status\":\"2\",\"release_time\":1664440147,\"release_user\":\"shengzheli\",\"sandbox_status\":\"2\",\"shop_id\":\"ct1664438845_TCAEOLWH\",\"shop_name\":\"æ åååæ¨¡æ¿\",\"template_id\":\"temp1\",\"terminals\":[]},{\"audit_status\":\"1\",\"create_time\":1664352791,\"create_user\":\"erztan\",\"labels\":[{\"id\":\"midas_202208301145014483768320_202209092040062933637248\",\"name\":\"ç®è¤\"},{\"id\":\"midas_202208301145014483768320_202209092040062933637249\",\"name\":\"è±é\"},{\"id\":\"midas_202208301145014483768320_202209092040062933637250\",\"name\":\"å²è¯\"}],\"modify_time\":1665392216,\"poster_url\":\"https://pagedoo.woa.com/material/202208301145014483768320/d050c4f043220a17d9746af42bc05c02.png\",\"release_status\":\"1\",\"release_time\":0,\"release_user\":\"\",\"sandbox_status\":\"1\",\"shop_id\":\"ct1664352791_SGFSCUYW\",\"shop_name\":\"tanè¿è¥ç-ååæ¨¡æ¿\",\"template_id\":\"temp1\",\"terminals\":[]},{\"audit_status\":\"1\",\"create_time\":1664250341,\"create_user\":\"seancai\",\"labels\":[{\"id\":\"midas_202208301145014483768320_202209092040062933637249\",\"name\":\"è±é\"},{\"id\":\"midas_202208301145014483768320_202209092040062933637250\",\"name\":\"å²è¯\"}],\"modify_time\":1665479160,\"poster_url\":\"https://pagedoo.woa.com/material/202208301145014483768320/d050c4f043220a17d9746af42bc05c02.png\",\"release_status\":\"1\",\"release_time\":0,\"release_user\":\"\",\"sandbox_status\":\"1\",\"shop_id\":\"ct1664250341_GZSSOOLZ\",\"shop_name\":\"è¡è½©æ¨¡ç-ç®çº¦ç\",\"template_id\":\"temp1\",\"terminals\":[]},{\"audit_status\":\"3\",\"create_time\":1664198858,\"create_user\":\"krisqi\",\"labels\":[],\"modify_time\":1664198898,\"poster_url\":\"https://pagedoo.woa.com/material/202208301145014483768320/d050c4f043220a17d9746af42bc05c02.png\",\"release_status\":\"2\",\"release_time\":1664198898,\"release_user\":\"krisqi\",\"sandbox_status\":\"2\",\"shop_id\":\"ct1664198858_RPJDYCTE\",\"shop_name\":\"æ åååæ¨¡æ¿\",\"template_id\":\"temp1\",\"terminals\":[]},{\"audit_status\":\"1\",\"create_time\":1664195133,\"create_user\":\"krisqi\",\"labels\":[{\"id\":\"midas_202208301145014483768320_202209092040062933637250\",\"name\":\"å²è¯\"}],\"modify_time\":1664195248,\"poster_url\":\"https://pagedoo.woa.com/material/202208301145014483768320/d050c4f043220a17d9746af42bc05c02.png\",\"release_status\":\"1\",\"release_time\":0,\"release_user\":\"\",\"sandbox_status\":\"2\",\"shop_id\":\"ct1664195133_WTXYRNRU\",\"shop_name\":\"æ åååæ¨¡æ¿\",\"template_id\":\"temp1\",\"terminals\":[]},{\"audit_status\":\"3\",\"create_time\":1664194816,\"create_user\":\"krisqi\",\"labels\":[],\"modify_time\":1664194851,\"poster_url\":\"https://pagedoo.woa.com/material/202208301145014483768320/d050c4f043220a17d9746af42bc05c02.png\",\"release_status\":\"2\",\"release_time\":1664194851,\"release_user\":\"krisqi\",\"sandbox_status\":\"2\",\"shop_id\":\"ct1664194816_CDDRURCH\",\"shop_name\":\"æ åååæ¨¡æ¿\",\"template_id\":\"temp1\",\"terminals\":[]},{\"audit_status\":\"1\",\"create_time\":1664194116,\"create_user\":\"krisqi\",\"labels\":[],\"modify_time\":1664194671,\"poster_url\":\"https://pagedoo.woa.com/material/202208301145014483768320/d050c4f043220a17d9746af42bc05c02.png\",\"release_status\":\"1\",\"release_time\":0,\"release_user\":\"\",\"sandbox_status\":\"1\",\"shop_id\":\"ct1664194116_VTTIIGBE\",\"shop_name\":\"æ åååæ¨¡æ¿\",\"template_id\":\"temp1\",\"terminals\":[]},{\"audit_status\":\"1\",\"create_time\":1664193179,\"create_user\":\"jlinjia\",\"labels\":[],\"modify_time\":1664193232,\"poster_url\":\"https://pagedoo.woa.com/material/202208301145014483768320/d050c4f043220a17d9746af42bc05c02.png\",\"release_status\":\"1\",\"release_time\":0,\"release_user\":\"\",\"sandbox_status\":\"2\",\"shop_id\":\"ct1664193179_MFDEHNFV\",\"shop_name\":\"æ åååæ¨¡æ¿\",\"template_id\":\"temp1\",\"terminals\":[]},{\"audit_status\":\"3\",\"create_time\":1664189432,\"create_user\":\"krisqi\",\"labels\":[{\"id\":\"midas_202208301145014483768320_202209092040062933637250\",\"name\":\"å²è¯\"}],\"modify_time\":1664192910,\"poster_url\":\"https://pagedoo.woa.com/material/202208301145014483768320/d050c4f043220a17d9746af42bc05c02.png\",\"release_status\":\"2\",\"release_time\":1664192910,\"release_user\":\"krisqi\",\"sandbox_status\":\"2\",\"shop_id\":\"ct1664189432_EWOJHNKT\",\"shop_name\":\"æ åååæ¨¡æ¿\",\"template_id\":\"temp1\",\"terminals\":[]},{\"audit_status\":\"3\",\"create_time\":1664186934,\"create_user\":\"krisqi\",\"labels\":[],\"modify_time\":1664186972,\"poster_url\":\"https://pagedoo.woa.com/material/202208301145014483768320/d050c4f043220a17d9746af42bc05c02.png\",\"release_status\":\"2\",\"release_time\":1664186972,\"release_user\":\"krisqi\",\"sandbox_status\":\"2\",\"shop_id\":\"ct1664186934_FTDPDRTE\",\"shop_name\":\"æ åååæ¨¡æ¿\",\"template_id\":\"temp1\",\"terminals\":[]},{\"audit_status\":\"1\",\"create_time\":1664186691,\"create_user\":\"krisqi\",\"labels\":[],\"modify_time\":1664186695,\"poster_url\":\"https://pagedoo.woa.com/material/202208301145014483768320/d050c4f043220a17d9746af42bc05c02.png\",\"release_status\":\"1\",\"release_time\":0,\"release_user\":\"\",\"sandbox_status\":\"1\",\"shop_id\":\"ct1664186691_NMQXMSRG\",\"shop_name\":\"æ åååæ¨¡æ¿\",\"template_id\":\"temp1\",\"terminals\":[]},{\"audit_status\":\"1\",\"create_time\":1664178934,\"create_user\":\"krisqi\",\"labels\":[],\"modify_time\":1664178974,\"poster_url\":\"https://pagedoo.woa.com/material/202208301145014483768320/d050c4f043220a17d9746af42bc05c02.png\",\"release_status\":\"1\",\"release_time\":0,\"release_user\":\"\",\"sandbox_status\":\"1\",\"shop_id\":\"ct1664178934_CKHIQQII\",\"shop_name\":\"æ åååæ¨¡æ¿\",\"template_id\":\"temp1\",\"terminals\":[]},{\"audit_status\":\"3\",\"create_time\":1664178482,\"create_user\":\"krisqi\",\"labels\":[{\"id\":\"midas_202208301145014483768320_202209092040062933637248\",\"name\":\"ç®è¤\"},{\"id\":\"midas_202208301145014483768320_202209092040062933637250\",\"name\":\"å²è¯\"}],\"modify_time\":1664178518,\"poster_url\":\"https://pagedoo.woa.com/material/202208301145014483768320/d050c4f043220a17d9746af42bc05c02.png\",\"release_status\":\"2\",\"release_time\":1664178518,\"release_user\":\"krisqi\",\"sandbox_status\":\"2\",\"shop_id\":\"ct1664178482_FNCCAADL\",\"shop_name\":\"ä»£å¸ä¹°èµ æµè¯\",\"template_id\":\"temp1\",\"terminals\":[]},{\"audit_status\":\"1\",\"create_time\":1663666694,\"create_user\":\"alexxgong\",\"labels\":[],\"modify_time\":1663666698,\"poster_url\":\"https://pagedoo.woa.com/material/202208301145014483768320/d050c4f043220a17d9746af42bc05c02.png\",\"release_status\":\"1\",\"release_time\":0,\"release_user\":\"\",\"sandbox_status\":\"1\",\"shop_id\":\"ct1663666693_PFLVKZMU\",\"shop_name\":\"æ åååæ¨¡æ¿\",\"template_id\":\"temp1\",\"terminals\":[]},{\"audit_status\":\"3\",\"create_time\":1663641405,\"create_user\":\"lanhuili\",\"labels\":[{\"id\":\"midas_202208301145014483768320_202209092040062933637249\",\"name\":\"è±é\"}],\"modify_time\":1663641478,\"poster_url\":\"https://pagedoo.woa.com/material/202208301145014483768320/d050c4f043220a17d9746af42bc05c02.png\",\"release_status\":\"2\",\"release_time\":1663641478,\"release_user\":\"lanhuili\",\"sandbox_status\":\"2\",\"shop_id\":\"ct1663641404_PAGZVRDE\",\"shop_name\":\"æ åååæ¨¡æ¿\",\"template_id\":\"temp1\",\"terminals\":[]}]},\"result_code\":\"0\",\"result_info\":\"ok\",\"x-request-id\":\"e2a85a61-c2d8-44e3-b9c8-f8a799c64635\"}"
+							},
+							"headers": {
+								"x-proxy-by": "SmartGate-IDC",
+								"x-forwarded-for": "30.43.234.17,11.176.16.225,10.99.17.204,10.99.17.35",
+								"Content-Type": "application/json",
+								"Transfer-Encoding": "chunked",
+								"Connection": "keep-alive",
+								"Trpc-Trans-Info": "{\"X-Request-Id\":\"ZTJhODVhNjEtYzJkOC00NGUzLWI5YzgtZjhhNzk5YzY0NjM1\",\"x_tencent_backend\":\"bWlkYXNfd2Vi\"}",
+								"X-Content-Type-Options": "nosniff",
+								"Date": "Wed, 12 Oct 2022 08:44:58 GMT",
+								"content-encoding": "gzip",
+								"x-rio-seq": "l95dz9zk-197757336"
+							}
+						}
+					},
+					{
+						"type": "response",
+						"key": {
+							"method": "POST",
+							"postData": "{\"audit_status\":[],\"page_num\":1,\"page_size\":20,\"release_status\":[],\"sandbox_status\":[],\"shop_name\":[]}",
+							"isNavigationRequest": false,
+							"resourceType": "xhr",
+							"url": {
+								"protocol": "https:",
+								"username": "",
+								"password": "",
+								"hostname": "pagedoo.woa.com",
+								"port": "",
+								"pathname": "/api/shop_manage.ShopSvr/ShopListQuery",
+								"query": {
+									"appId": "202208301145014483768320"
+								}
+							},
+							"keyHash": "FA231787B0ED6B2D6C8E17FF5CE722DA",
+							"extra": [
+								"xhr"
+							],
+							"base": "POST_https:_pagedoo.woa.com_/api/shop_manage.ShopSvr/ShopListQuery"
+						},
+						"startTime": 1665564298628,
+						"finishTime": 1665564298829,
+						"duration": 201,
+						"response": {
+							"cacheConfig": {
+								"x-proxy-by": "SmartGate-IDC",
+								"x-forwarded-for": "30.43.234.17,11.176.16.36,10.99.17.204,10.99.17.35",
+								"Content-Type": "application/json",
+								"Transfer-Encoding": "chunked",
+								"Connection": "keep-alive",
+								"Trpc-Trans-Info": "{\"X-Request-Id\":\"YTIwYmI4ZTAtOGMyMS00MTY1LTk4ZjMtMTMwNmVhZDA3ZmM3\",\"x_tencent_backend\":\"bWlkYXNfd2Vi\"}",
+								"X-Content-Type-Options": "nosniff",
+								"Date": "Wed, 12 Oct 2022 08:44:58 GMT",
+								"content-encoding": "gzip",
+								"x-rio-seq": "l95dz9zw-161333413"
+							},
+							"status": 200,
+							"body": {
+								"encoding": "binary",
+								"content": "{\"data\":{\"count\":28,\"shop_list\":[{\"audit_status\":\"1\",\"create_time\":1665452647,\"create_user\":\"v_zilinwen\",\"labels\":[],\"modify_time\":1665452805,\"poster_url\":\"https://pagedoo.woa.com/material/202208301145014483768320/d050c4f043220a17d9746af42bc05c02.png\",\"release_status\":\"1\",\"release_time\":0,\"release_user\":\"\",\"sandbox_status\":\"1\",\"shop_id\":\"ct1665452647_HVCSEBIQ\",\"shop_name\":\"æ åååæ¨¡æ¿\",\"template_id\":\"temp1\",\"terminals\":[]},{\"audit_status\":\"1\",\"create_time\":1665452646,\"create_user\":\"v_zilinwen\",\"labels\":[],\"modify_time\":1665452647,\"poster_url\":\"https://pagedoo.woa.com/material/202208301145014483768320/d050c4f043220a17d9746af42bc05c02.png\",\"release_status\":\"1\",\"release_time\":0,\"release_user\":\"\",\"sandbox_status\":\"1\",\"shop_id\":\"ct1665452646_XJUDFZZT\",\"shop_name\":\"æ åååæ¨¡æ¿\",\"template_id\":\"temp1\",\"terminals\":[]},{\"audit_status\":\"1\",\"create_time\":1665394905,\"create_user\":\"v_yingzhelu\",\"labels\":[],\"modify_time\":1665394906,\"poster_url\":\"https://pagedoo.woa.com/material/202208301145014483768320/d050c4f043220a17d9746af42bc05c02.png\",\"release_status\":\"1\",\"release_time\":0,\"release_user\":\"\",\"sandbox_status\":\"1\",\"shop_id\":\"ct1665394905_XUIOSEUE\",\"shop_name\":\"æ åååæ¨¡æ¿\",\"template_id\":\"temp1\",\"terminals\":[]},{\"audit_status\":\"1\",\"create_time\":1665391514,\"create_user\":\"v_yingzhelu\",\"labels\":[],\"modify_time\":1665391515,\"poster_url\":\"https://pagedoo.woa.com/material/202208301145014483768320/d050c4f043220a17d9746af42bc05c02.png\",\"release_status\":\"1\",\"release_time\":0,\"release_user\":\"\",\"sandbox_status\":\"1\",\"shop_id\":\"ct1665391514_DUVRQFVA\",\"shop_name\":\"æ åååæ¨¡æ¿\",\"template_id\":\"temp1\",\"terminals\":[]},{\"audit_status\":\"1\",\"create_time\":1665390752,\"create_user\":\"v_yingzhelu\",\"labels\":[],\"modify_time\":1665390752,\"poster_url\":\"https://pagedoo.woa.com/material/202208301145014483768320/d050c4f043220a17d9746af42bc05c02.png\",\"release_status\":\"1\",\"release_time\":0,\"release_user\":\"\",\"sandbox_status\":\"1\",\"shop_id\":\"ct1665390752_GBGWZBBE\",\"shop_name\":\"æ åååæ¨¡æ¿\",\"template_id\":\"temp1\",\"terminals\":[]},{\"audit_status\":\"3\",\"create_time\":1664438846,\"create_user\":\"shengzheli\",\"labels\":[],\"modify_time\":1664440147,\"poster_url\":\"https://pagedoo.woa.com/material/202208301145014483768320/d050c4f043220a17d9746af42bc05c02.png\",\"release_status\":\"2\",\"release_time\":1664440147,\"release_user\":\"shengzheli\",\"sandbox_status\":\"2\",\"shop_id\":\"ct1664438845_TCAEOLWH\",\"shop_name\":\"æ åååæ¨¡æ¿\",\"template_id\":\"temp1\",\"terminals\":[]},{\"audit_status\":\"1\",\"create_time\":1664352791,\"create_user\":\"erztan\",\"labels\":[{\"id\":\"midas_202208301145014483768320_202209092040062933637248\",\"name\":\"ç®è¤\"},{\"id\":\"midas_202208301145014483768320_202209092040062933637249\",\"name\":\"è±é\"},{\"id\":\"midas_202208301145014483768320_202209092040062933637250\",\"name\":\"å²è¯\"}],\"modify_time\":1665392216,\"poster_url\":\"https://pagedoo.woa.com/material/202208301145014483768320/d050c4f043220a17d9746af42bc05c02.png\",\"release_status\":\"1\",\"release_time\":0,\"release_user\":\"\",\"sandbox_status\":\"1\",\"shop_id\":\"ct1664352791_SGFSCUYW\",\"shop_name\":\"tanè¿è¥ç-ååæ¨¡æ¿\",\"template_id\":\"temp1\",\"terminals\":[]},{\"audit_status\":\"1\",\"create_time\":1664250341,\"create_user\":\"seancai\",\"labels\":[{\"id\":\"midas_202208301145014483768320_202209092040062933637249\",\"name\":\"è±é\"},{\"id\":\"midas_202208301145014483768320_202209092040062933637250\",\"name\":\"å²è¯\"}],\"modify_time\":1665479160,\"poster_url\":\"https://pagedoo.woa.com/material/202208301145014483768320/d050c4f043220a17d9746af42bc05c02.png\",\"release_status\":\"1\",\"release_time\":0,\"release_user\":\"\",\"sandbox_status\":\"1\",\"shop_id\":\"ct1664250341_GZSSOOLZ\",\"shop_name\":\"è¡è½©æ¨¡ç-ç®çº¦ç\",\"template_id\":\"temp1\",\"terminals\":[]},{\"audit_status\":\"3\",\"create_time\":1664198858,\"create_user\":\"krisqi\",\"labels\":[],\"modify_time\":1664198898,\"poster_url\":\"https://pagedoo.woa.com/material/202208301145014483768320/d050c4f043220a17d9746af42bc05c02.png\",\"release_status\":\"2\",\"release_time\":1664198898,\"release_user\":\"krisqi\",\"sandbox_status\":\"2\",\"shop_id\":\"ct1664198858_RPJDYCTE\",\"shop_name\":\"æ åååæ¨¡æ¿\",\"template_id\":\"temp1\",\"terminals\":[]},{\"audit_status\":\"1\",\"create_time\":1664195133,\"create_user\":\"krisqi\",\"labels\":[{\"id\":\"midas_202208301145014483768320_202209092040062933637250\",\"name\":\"å²è¯\"}],\"modify_time\":1664195248,\"poster_url\":\"https://pagedoo.woa.com/material/202208301145014483768320/d050c4f043220a17d9746af42bc05c02.png\",\"release_status\":\"1\",\"release_time\":0,\"release_user\":\"\",\"sandbox_status\":\"2\",\"shop_id\":\"ct1664195133_WTXYRNRU\",\"shop_name\":\"æ åååæ¨¡æ¿\",\"template_id\":\"temp1\",\"terminals\":[]},{\"audit_status\":\"3\",\"create_time\":1664194816,\"create_user\":\"krisqi\",\"labels\":[],\"modify_time\":1664194851,\"poster_url\":\"https://pagedoo.woa.com/material/202208301145014483768320/d050c4f043220a17d9746af42bc05c02.png\",\"release_status\":\"2\",\"release_time\":1664194851,\"release_user\":\"krisqi\",\"sandbox_status\":\"2\",\"shop_id\":\"ct1664194816_CDDRURCH\",\"shop_name\":\"æ åååæ¨¡æ¿\",\"template_id\":\"temp1\",\"terminals\":[]},{\"audit_status\":\"1\",\"create_time\":1664194116,\"create_user\":\"krisqi\",\"labels\":[],\"modify_time\":1664194671,\"poster_url\":\"https://pagedoo.woa.com/material/202208301145014483768320/d050c4f043220a17d9746af42bc05c02.png\",\"release_status\":\"1\",\"release_time\":0,\"release_user\":\"\",\"sandbox_status\":\"1\",\"shop_id\":\"ct1664194116_VTTIIGBE\",\"shop_name\":\"æ åååæ¨¡æ¿\",\"template_id\":\"temp1\",\"terminals\":[]},{\"audit_status\":\"1\",\"create_time\":1664193179,\"create_user\":\"jlinjia\",\"labels\":[],\"modify_time\":1664193232,\"poster_url\":\"https://pagedoo.woa.com/material/202208301145014483768320/d050c4f043220a17d9746af42bc05c02.png\",\"release_status\":\"1\",\"release_time\":0,\"release_user\":\"\",\"sandbox_status\":\"2\",\"shop_id\":\"ct1664193179_MFDEHNFV\",\"shop_name\":\"æ åååæ¨¡æ¿\",\"template_id\":\"temp1\",\"terminals\":[]},{\"audit_status\":\"3\",\"create_time\":1664189432,\"create_user\":\"krisqi\",\"labels\":[{\"id\":\"midas_202208301145014483768320_202209092040062933637250\",\"name\":\"å²è¯\"}],\"modify_time\":1664192910,\"poster_url\":\"https://pagedoo.woa.com/material/202208301145014483768320/d050c4f043220a17d9746af42bc05c02.png\",\"release_status\":\"2\",\"release_time\":1664192910,\"release_user\":\"krisqi\",\"sandbox_status\":\"2\",\"shop_id\":\"ct1664189432_EWOJHNKT\",\"shop_name\":\"æ åååæ¨¡æ¿\",\"template_id\":\"temp1\",\"terminals\":[]},{\"audit_status\":\"3\",\"create_time\":1664186934,\"create_user\":\"krisqi\",\"labels\":[],\"modify_time\":1664186972,\"poster_url\":\"https://pagedoo.woa.com/material/202208301145014483768320/d050c4f043220a17d9746af42bc05c02.png\",\"release_status\":\"2\",\"release_time\":1664186972,\"release_user\":\"krisqi\",\"sandbox_status\":\"2\",\"shop_id\":\"ct1664186934_FTDPDRTE\",\"shop_name\":\"æ åååæ¨¡æ¿\",\"template_id\":\"temp1\",\"terminals\":[]},{\"audit_status\":\"1\",\"create_time\":1664186691,\"create_user\":\"krisqi\",\"labels\":[],\"modify_time\":1664186695,\"poster_url\":\"https://pagedoo.woa.com/material/202208301145014483768320/d050c4f043220a17d9746af42bc05c02.png\",\"release_status\":\"1\",\"release_time\":0,\"release_user\":\"\",\"sandbox_status\":\"1\",\"shop_id\":\"ct1664186691_NMQXMSRG\",\"shop_name\":\"æ åååæ¨¡æ¿\",\"template_id\":\"temp1\",\"terminals\":[]},{\"audit_status\":\"1\",\"create_time\":1664178934,\"create_user\":\"krisqi\",\"labels\":[],\"modify_time\":1664178974,\"poster_url\":\"https://pagedoo.woa.com/material/202208301145014483768320/d050c4f043220a17d9746af42bc05c02.png\",\"release_status\":\"1\",\"release_time\":0,\"release_user\":\"\",\"sandbox_status\":\"1\",\"shop_id\":\"ct1664178934_CKHIQQII\",\"shop_name\":\"æ åååæ¨¡æ¿\",\"template_id\":\"temp1\",\"terminals\":[]},{\"audit_status\":\"3\",\"create_time\":1664178482,\"create_user\":\"krisqi\",\"labels\":[{\"id\":\"midas_202208301145014483768320_202209092040062933637248\",\"name\":\"ç®è¤\"},{\"id\":\"midas_202208301145014483768320_202209092040062933637250\",\"name\":\"å²è¯\"}],\"modify_time\":1664178518,\"poster_url\":\"https://pagedoo.woa.com/material/202208301145014483768320/d050c4f043220a17d9746af42bc05c02.png\",\"release_status\":\"2\",\"release_time\":1664178518,\"release_user\":\"krisqi\",\"sandbox_status\":\"2\",\"shop_id\":\"ct1664178482_FNCCAADL\",\"shop_name\":\"ä»£å¸ä¹°èµ æµè¯\",\"template_id\":\"temp1\",\"terminals\":[]},{\"audit_status\":\"1\",\"create_time\":1663666694,\"create_user\":\"alexxgong\",\"labels\":[],\"modify_time\":1663666698,\"poster_url\":\"https://pagedoo.woa.com/material/202208301145014483768320/d050c4f043220a17d9746af42bc05c02.png\",\"release_status\":\"1\",\"release_time\":0,\"release_user\":\"\",\"sandbox_status\":\"1\",\"shop_id\":\"ct1663666693_PFLVKZMU\",\"shop_name\":\"æ åååæ¨¡æ¿\",\"template_id\":\"temp1\",\"terminals\":[]},{\"audit_status\":\"3\",\"create_time\":1663641405,\"create_user\":\"lanhuili\",\"labels\":[{\"id\":\"midas_202208301145014483768320_202209092040062933637249\",\"name\":\"è±é\"}],\"modify_time\":1663641478,\"poster_url\":\"https://pagedoo.woa.com/material/202208301145014483768320/d050c4f043220a17d9746af42bc05c02.png\",\"release_status\":\"2\",\"release_time\":1663641478,\"release_user\":\"lanhuili\",\"sandbox_status\":\"2\",\"shop_id\":\"ct1663641404_PAGZVRDE\",\"shop_name\":\"æ åååæ¨¡æ¿\",\"template_id\":\"temp1\",\"terminals\":[]}]},\"result_code\":\"0\",\"result_info\":\"ok\",\"x-request-id\":\"a20bb8e0-8c21-4165-98f3-1306ead07fc7\"}"
+							},
+							"headers": {
+								"x-proxy-by": "SmartGate-IDC",
+								"x-forwarded-for": "30.43.234.17,11.176.16.36,10.99.17.204,10.99.17.35",
+								"Content-Type": "application/json",
+								"Transfer-Encoding": "chunked",
+								"Connection": "keep-alive",
+								"Trpc-Trans-Info": "{\"X-Request-Id\":\"YTIwYmI4ZTAtOGMyMS00MTY1LTk4ZjMtMTMwNmVhZDA3ZmM3\",\"x_tencent_backend\":\"bWlkYXNfd2Vi\"}",
+								"X-Content-Type-Options": "nosniff",
+								"Date": "Wed, 12 Oct 2022 08:44:58 GMT",
+								"content-encoding": "gzip",
+								"x-rio-seq": "l95dz9zw-161333413"
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"rrwebDataList": {}
+}
